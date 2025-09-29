@@ -475,7 +475,7 @@ footer p, footer h3 {
     padding: 96px 32px;
     text-align: center;
     color: #fff;
-    background: url('/assets/about-image.jpg') center 52%/cover no-repeat;
+    background: url('../assets/about-image.jpg') center 52%/cover no-repeat;
     position: relative;
 }
 
