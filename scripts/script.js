@@ -671,6 +671,8 @@ function showHome() {
     setupContactButton();  
     setupModalEventListeners();  
     setupContactForm();   
+    const heroBtn = document.getElementById('hero-btn');
+    heroBtn.addEventListener('click', showServices);
     window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
