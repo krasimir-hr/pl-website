@@ -35,7 +35,7 @@ const translations = {
     "companiy-card-li-5": "Always keeping listening channels active, to ensure timely and effective interventions.",
 
     "approach-header": "Our Approach",
-    "approach-under-header": "Our Approach",
+    "approach-under-header": "Attentive, sustainable, human",
 
     "listening-header": "Listening",
     "listening-p": "We read introductory emails, listen to initial phone calls, and organize video calls to identify individual needs.",
@@ -191,7 +191,7 @@ const translations = {
     "hero-3": "Компетентна човечност за всеки етап от Вашия личен и професионален живот.",
     "hero-4": "people, persons, needs",
     "hero-5": "Никога повече сами.",
-    "hero-6": "Открийте нашите услуги ",
+    "hero-6": "Нашите услуги ",
 
     "services-header": "Нашите услуги",
     "services-under-header": "Компетентна човечност за всеки етап от Вашия личен и професионален живот.",
