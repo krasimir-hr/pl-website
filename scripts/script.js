@@ -553,7 +553,6 @@ function setupContactForm() {
         };
 
         try {
-            // OPTION 1: Formspree (Replace YOUR_FORM_ID)
             const response = await fetch('https://formspree.io/f/mblzgwow', {
                 method: 'POST',
                 headers: {
@@ -593,14 +592,12 @@ function setupModalEventListeners() {
         }
     });
 
-    // Close on Escape key
     document.addEventListener('keydown', function(event) {
         if (event.key === 'Escape') {
             closeContactModal();
         }
     });
 
-    // Close button
     const closeBtn = document.querySelector('.close-modal-btn');
     if (closeBtn) {
         closeBtn.addEventListener('click', closeContactModal);
@@ -616,6 +613,14 @@ function updateNavigation() {
     if (homeBtn) homeBtn.textContent = t('nav-home-btn');
     if (serviceBtn) serviceBtn.textContent = t('nav-service-btn');
     if (aboutBtn) aboutBtn.textContent = t('nav-about-btn');
+
+    const homeMobileBtn = document.querySelector('#nav-home-mobile a');
+    const serviceobileBtn = document.querySelector('#nav-service-mobile a');
+    const aboutMobileBtn = document.querySelector('#nav-about-mobile a');
+
+    if (homeMobileBtn) homeMobileBtn.textContent = t('nav-home-btn');
+    if (serviceobileBtn) serviceobileBtn.textContent = t('nav-service-btn');
+    if (aboutMobileBtn) aboutMobileBtn.textContent = t('nav-about-btn');
 
     const footerDesc = document.querySelector('.footer-desc');
     const footerLinks = document.querySelector('.footer-links h3');
@@ -713,13 +718,35 @@ function setupNavigation() {
     const serviceNavBtn = document.querySelector('#nav-service');
     const aboutNavBtn = document.querySelector('#nav-about');
 
+    const homeNavBtnMobile = document.querySelector('#nav-home-mobile');
+    const serviceNavBtnMobile = document.querySelector('#nav-service-mobile');
+    const aboutNavBtnMobile = document.querySelector('#nav-about-mobile');
+
     const footerHomeBtns = document.querySelectorAll('.home-btn');
     const footerServiceBtns = document.querySelectorAll('.service-btn');
     const footerAboutBtns = document.querySelectorAll('.about-btn');
 
+    const mobileDiv = document.querySelector('.mobile-div');
+
     if (homeNavBtn) {
         homeNavBtn.addEventListener('click', showHome);
     }
+
+    homeNavBtnMobile.addEventListener('click', () => {
+        showHome();
+        mobileDiv.classList.remove('active');
+    });
+    
+    serviceNavBtnMobile.addEventListener('click', () => {
+        showServices();
+        mobileDiv.classList.remove('active');
+    });
+
+    aboutNavBtnMobile.addEventListener('click', () => {
+        showAbout();
+        mobileDiv.classList.remove('active');
+    });
+
     footerHomeBtns.forEach(btn => {
         btn.addEventListener('click', showHome);
     });
@@ -737,6 +764,16 @@ function setupNavigation() {
     footerAboutBtns.forEach(btn => {
         btn.addEventListener('click', showAbout);
     });
+
+    const hamburgerBtn = document.getElementById('hamburger-btn');
+    hamburgerBtn.addEventListener('click', () => {
+        mobileDiv.classList.toggle('active');
+    })
+
+    const mobileBtn = document.querySelector('.mobile-btn');
+    mobileBtn.addEventListener('click', () => {
+        mobileDiv.classList.remove('active');
+    })
 }
 
 function setupLanguageSelector() {
