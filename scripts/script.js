@@ -668,6 +668,9 @@ function showHome() {
     document.getElementById('main-content').innerHTML = getHomeContent();
     updateNavigation();
     updateActiveNavButton('home');
+    setupContactButton();  
+    setupModalEventListeners();  
+    setupContactForm();   
     window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
