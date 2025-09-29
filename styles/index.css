@@ -38,6 +38,7 @@ header {
     gap: 12px;
     align-items: center;
     color: #12b7a9;
+    cursor: pointer;
 }
 
 .logo img {
@@ -416,7 +417,6 @@ footer p, footer h3 {
 
 .footer-links h3, .footer-contacts h3 {
     font-weight: 500;
-    margin-bottom: 16px;
     height: 40px;
 }
 
@@ -804,7 +804,8 @@ a {
 
     .footer-info {
         width: 80vw;
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 30px;
     }
 
     .footer-links {

@@ -291,7 +291,7 @@ function getHomeContent() {
               <p class="normal">${t('hero-3')}</p>
               <p class="small">${t('hero-4')}</p>
               <p class="slogan">${t('hero-5')}</p>
-              <a href="#">${t('hero-6')} <span class="material-symbols-outlined">keyboard_arrow_right</span></a>
+              <a id="hero-btn">${t('hero-6')} <span class="material-symbols-outlined">keyboard_arrow_right</span></a>
           </div>
       </section>
       <section id="services">
@@ -727,6 +727,12 @@ function setupNavigation() {
     const footerAboutBtns = document.querySelectorAll('.about-btn');
 
     const mobileDiv = document.querySelector('.mobile-div');
+
+    const logo = document.querySelector('.logo');
+    logo.addEventListener('click', showHome);
+
+    const heroBtn = document.getElementById('hero-btn');
+    heroBtn.addEventListener('click', showServices)
 
     if (homeNavBtn) {
         homeNavBtn.addEventListener('click', showHome);
