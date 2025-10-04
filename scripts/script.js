@@ -56,9 +56,9 @@ const translations = {
     "footer-links-about": "About us",
 
     "footer-contact-header": "Contact Us",
-    "footer-contact-phone": "Phone: +39 123 456 7890",
+    "footer-contact-phone": "Phone: +39 375 591 4458",
 
-    "copyright": "© 2025 PL Personal Development. All rights reserved.",
+    "copyright": "© 2025 PL people, persons, needs. All rights reserved.",
     
     "about-header": "About Us",
     "about-p": "People dedicated to the development of other people.",
@@ -148,9 +148,9 @@ const translations = {
     "footer-links-about": "Chi siamo",
 
     "footer-contact-header": "Connettiti con Noi",
-    "footer-contact-phone": "Telefono: +39 123 456 7890",
+    "footer-contact-phone": "Telefono: +39 375 591 4458",
 
-    "copyright": "© 2025 PL Personal Development. Tutti i diritti riservati.",
+    "copyright": "© 2025 PL people, persons, needs. Tutti i diritti riservati.",
     
     "about-header": "Chi siamo",
     "about-p": "Persone che si dedicano allo sviluppo di altre persone.",
@@ -238,9 +238,9 @@ const translations = {
     "footer-links-about": "За нас",
 
     "footer-contact-header": "Свържете се с нас",
-    "footer-contact-phone": "Телефон: +39 123 456 7890",
+    "footer-contact-phone": "Телефон: +39 375 591 4458",
 
-    "copyright": "© 2025 PL Personal Development. Всички права запазени.",
+    "copyright": "© 2025 PL people, persons, needs. Всички права запазени.",
     
     "about-header": "За нас",
     "about-p": "Хора, посветени на развитието на други хора.",
