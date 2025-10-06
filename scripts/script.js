@@ -140,7 +140,7 @@ const translations = {
 
     "contact-us-btn": "Contattaci",
 
-    "footer-desc": "Sviluppiamo persone resilienti e team coesi attraverso valutazioni psicometriche e supporto continuo per la crescita personale e professionale.",
+    "footer-desc": "Competente umanità per ogni fase della vita personale e professionale.",
 
     "footer-links": "Link Utili",
     "footer-links-home": "Home",
