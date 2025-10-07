@@ -195,6 +195,7 @@ ul {
     width: 200px;
     margin: 0 auto;
     transition: transform 0.3s ease;
+    justify-content: center;
 }
 
 #hero a:hover {
@@ -238,6 +239,9 @@ ul {
     5px 5px 10px rgba(0, 0, 0, 0.02),
     -5px 5px 10px rgba(0, 0, 0, 0.02);
     text-align: left;
+    position: relative;
+    overflow: hidden;
+    height: 460px;
 }
 
 .card:hover {
@@ -287,6 +291,7 @@ ul {
     font-weight: 400;
     color: #475569;
     line-height: 1.7;
+    
 }
 
 .card ul {
@@ -313,13 +318,23 @@ ul {
 }
 
 .card img {
-    height: 320px;
-    width: 350px;
+    position: absolute;
+    height: 280px;
+    width: 320px;
     object-fit: cover;
     object-position: top;
     display: block;
     margin: 0 auto 16px;
+    bottom: 0px;
+    right: 16px;
+    z-index: 1;
+    border-radius: 8px;
 }
+
+/* .big {
+    height: 350px !important;
+    width: 420px !important;
+} */
 
 #approach {
     text-align: center;
@@ -927,6 +942,7 @@ a {
     }
 
     .card img {
-        width: 300px;
+        width: 200px;
+        height: 200px;
     }
 }

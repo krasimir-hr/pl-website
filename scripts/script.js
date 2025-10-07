@@ -303,10 +303,10 @@ function getHomeContent() {
                       <span class="material-symbols-outlined blue">school</span>
                       <h3>${t('student-card-header')}</h3>
                   </div>
-                  <p class="card-text">
+                  <p class="card-text img">
                       ${t('student-card-p')}
                   </p>
-                  <img src="assets/confused-student.webp" alt="confused student">
+                  <img class="big" src="assets/confused-student.webp" alt="confused student">
               </div>
               <div class="card">
                   <div class="card-header">
@@ -342,16 +342,6 @@ function getHomeContent() {
                           </div>
                       </li>
                   </ul>
-              </div>
-              <div class="card">
-                  <div class="card-header">
-                      <span class="material-symbols-outlined purple">crown</span>
-                      <h3>${t('manager-card-header')}</h3>
-                  </div>
-                  <p class="card-text">
-                      ${t('manager-card-p')}
-                  </p>
-                  <img src="assets/happy-manager.webp" alt="happy manager">
               </div>
               <div class="card">
                   <div class="card-header">
@@ -399,6 +389,16 @@ function getHomeContent() {
                           <div>${t('companiy-card-li-5')}</div>
                       </li>
                   </ul>
+              </div>
+              <div class="card">
+                  <div class="card-header">
+                      <span class="material-symbols-outlined purple">crown</span>
+                      <h3>${t('manager-card-header')}</h3>
+                  </div>
+                  <p class="card-text img">
+                      ${t('manager-card-p')}
+                  </p>
+                  <img class="big" src="assets/teamwork.jpg" alt="happy manager">
               </div>
           </div>
       </section>
