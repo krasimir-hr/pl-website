@@ -306,6 +306,7 @@ function getHomeContent() {
                   <p class="card-text">
                       ${t('student-card-p')}
                   </p>
+                  <img src="assets/confused-student.webp" alt="confused student">
               </div>
               <div class="card">
                   <div class="card-header">
@@ -350,6 +351,7 @@ function getHomeContent() {
                   <p class="card-text">
                       ${t('manager-card-p')}
                   </p>
+                  <img src="assets/happy-manager.webp" alt="happy manager">
               </div>
               <div class="card">
                   <div class="card-header">
@@ -553,7 +555,7 @@ function setupContactForm() {
         };
 
         try {
-            const response = await fetch('https://formspree.io/f/mblzgwow', {
+            const response = await fetch('https://formspree.io/f/mnngbqwp', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'

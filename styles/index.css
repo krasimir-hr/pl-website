@@ -312,6 +312,15 @@ ul {
     margin-top: 4px;
 }
 
+.card img {
+    height: 320px;
+    width: 350px;
+    object-fit: cover;
+    object-position: top;
+    display: block;
+    margin: 0 auto 16px;
+}
+
 #approach {
     text-align: center;
     padding: 96px 0;
@@ -915,5 +924,9 @@ a {
     .contact-card {
         width: 70%;
         margin: 0 auto;
+    }
+
+    .card img {
+        width: 300px;
     }
 }
