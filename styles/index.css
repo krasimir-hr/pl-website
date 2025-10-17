@@ -801,8 +801,16 @@ a {
         padding-top: 30px;
     }
 
-    .bold {
-        font-size: 36px
+    .content p {
+        font-size:30px;
+    }
+
+    .content .small {
+        font-size: 24px;
+    }
+
+    .content .normal {
+        font-size: 23px
     }
 
     .slogan {
@@ -816,7 +824,6 @@ a {
     .service-cards {
         width: 90vw;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
     }
 
     .approach-cards {
@@ -941,8 +948,40 @@ a {
         margin: 0 auto;
     }
 
+    .card {
+        height: auto;
+        min-height: 500px;
+    }
+
     .card img {
         width: 200px;
         height: 200px;
     }
+
+    .card-header h3 {
+        font-size: 20px;
+    }
+
+    .card-header span {
+        font-size: 20px;
+    }
+
+    .card-text {
+        font-size: 15px;
+    }
+
+    .card ul li div {
+        font-size: 14px;
+    }
+
+    .section-header {
+        font-size: 30px;
+    }
+
+    .under-header-text {
+        width: 90vw;
+        margin: 0 auto 32px;
+        font-size: 17px;
+    }
+
 }
