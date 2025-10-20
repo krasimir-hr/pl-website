@@ -44,7 +44,7 @@ const translations = {
     "assesment-p": "We analyze the information, define the needs, and propose the intervention, trying to make it brief, effective, and sustainable.",
 
     "support-header": "Support",
-    "support-p": "We start the intervention program, monitor progress, make changes if needed, and finish when the person declares themselves ready to handle situations autonomously.",
+    "support-p": "We start the intervention program, monitor progress, make changes if needed, and finish when the person declares readiness to handle situations autonomously.",
 
     "contact-us-btn": "Contact Us",
 
@@ -147,7 +147,7 @@ const translations = {
     "footer-links-services": "Servizi",
     "footer-links-about": "Chi siamo",
 
-    "footer-contact-header": "Connettiti con Noi",
+    "footer-contact-header": "Connettiti con noi",
     "footer-contact-phone": "Telefono: +39 375 591 4458",
 
     "copyright": "© 2025 PL people, persons, needs. Tutti i diritti riservati.",
