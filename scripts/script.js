@@ -1,286 +1,343 @@
 const translations = {
-  en: {
-    "nav-home-btn": "Home",
-    "nav-service-btn": "Services",
-    "nav-about-btn": "About us",
-
-    "hero-1": "For the easy moments, there are many.",
-    "hero-2": "For the challenging moments, you have us.",
-    "hero-3": "Competent humanity for every stage of your personal and professional life.",
-    "hero-4": "people, persons, needs",
-    "hero-5": "Never alone again.",
-    "hero-6": "Discover Our Services ",
-
-    "services-header": "OUR SERVCIES",
-    "services-under-header": "Competent humanity for every stage of your personal and professional life.",
-
-    "student-card-header": "Students and recent graduates",
-    "student-card-p": "We help high school students choose university studies, undergraduates select advanced courses, and recent graduates align career choices with personality and aspirations.",
-
-    "professional-card-header": "Professionals and workers",
-    "professional-card-p": "We help individuals harmonize and balance the two spheres of life, personal and professional.",
-    "professional-card-li-1": "Emotional and psychological support for managing family, children, and parents.",
-    "professional-card-li-2": "Support for professional orientation, career transitions, job changes or searches, development of new skills, improvement of work relationships, and legal issues.",
-    "professional-card-li-3": "Programs and initiatives aimed at maintaining psycho-physical well-being individually and in groups.",
-
-    "manager-card-header": "Managers",
-    "manager-card-p": "For us, people management is an art. We help current or aspiring managers gain awareness and understand how to get the best out of themselves and others.",
-
-    "companiy-card-header": "Companies",
-    "companiy-card-p": "From the individual to the team, towards greater engagement and bigger results.",
-    "companiy-card-li-1": "Through tested, validated, and constantly evolving assessment tools.",
-    "companiy-card-li-2": "By integrating new technologies with targeted and personalized meetings.",
-    "companiy-card-li-3": "By providing timely feedback to the person, the team, and the company, to achieve common goals.",
-    "companiy-card-li-4": "With regular follow-ups and checks, carried out with consistency, attention, and care.",
-    "companiy-card-li-5": "Always keeping listening channels active, to ensure timely and effective interventions.",
-
-    "approach-header": "Our Approach",
-    "approach-under-header": "Attentive, sustainable, human",
-
-    "listening-header": "Listening",
-    "listening-p": "We read introductory emails, listen to initial phone calls, and organize video calls to identify individual needs.",
-
-    "assesment-header": "Assessment",
-    "assesment-p": "We analyze the information, define the needs, and propose the intervention, trying to make it brief, effective, and sustainable.",
-
-    "support-header": "Support",
-    "support-p": "We start the intervention program, monitor progress, make changes if needed, and finish when the person declares readiness to handle situations autonomously.",
-
-    "contact-us-btn": "Contact Us",
-
-    "footer-desc": "Competent humanity for every stage of your personal and professional life.",
-
-    "footer-links": "Links",
-    "footer-links-home": "Home",
-    "footer-links-services": "Services",
-    "footer-links-about": "About us",
-
-    "footer-contact-header": "Contact Us",
-    "footer-contact-phone": "Phone: +39 375 591 4458",
-
-    "copyright": "© 2025 PL people, persons, needs. All rights reserved.",
-    
-    "about-header": "About Us",
-    "about-p": "People dedicated to the development of other people.",
-
-    "join-header": "We are people like you.",
-    "join-1": "People who have to make choices.",
-    "join-2": "People who go through difficult times.",
-    "join-3": "Who face fears, doubts, and challenges, becoming resilient.",
-    "join-4": "Who transform crises into opportunities, and from them forge new identities.",
-    "join-5": "People who listen to understand, to support.",
-    "join-6": "Professionals from different sciences in service of humanity, to build a resilient and supportive society.",
-
-    "contact-us-header": "Contact us",
-    "about-phone": "Phone",
-
-    "form-header": "Contact Us",
-    "form1": "Name *",
-    "form1placeholder": "Your name",
-
-    "form2": "Email *",
-    "form2placeholder": "your.email@example.com",
-
-    "form3": "Company",
-    "form3placeholder": "Your company name (optional)",
-
-    "form4": "Message",
-    "form4placeholder": "Describe your needs or as your questions...",
-
-    "formBtn": "Send Message"
-
-  },
-
-  it: {
-    "nav-home-btn": "Home",
-    "nav-service-btn": "Servizi",
-    "nav-about-btn": "Chi siamo",
-
-    "hero-1": "Per i momenti facili ci sono in tanti.",
-    "hero-2": "Per i momenti di sfida ci siamo noi.",
-    "hero-3": "Competente umanità per ogni fase della vita personale e professionale.",
-    "hero-4": "people, persons, needs",
-    "hero-5": "Mai più soli.",
-    "hero-6": "Scopri i nostri servizi",
-
-    "services-header": "I nostri servizi",
-    "services-under-header": "Competente umanità per ogni fase della vita personale e professionale.",
-
-    "student-card-header": "Studenti e neolaureati",
-    "student-card-p": "Aiutiamo studenti delle scuole superiori a scegliere gli studi universitari, laureandi a selezionare corsi avanzati, e neolaureati ad allineare le scelte di carriera con personalità e aspirazioni.",
-
-    "professional-card-header": "Professionisti e lavoratori",
-    "professional-card-p": "Aiutiamo gli individui ad armonizzare e bilanciare le due sfere della vita, personale e professionale",
-    "professional-card-li-1": "Supporto emotivo e psicologico per la gestione di famiglia, figli e genitori",
-    "professional-card-li-2": "Supporto di orientamento professionale, transizioni di carriera, cambio o ricerca di lavoro, sviluppo di nuove competenze, miglioramento delle relazioni al lavoro e questioni legali",
-    "professional-card-li-3": "Programmi e iniziative volte al mantenimento del benessere psico-fisico in modo individuale e gruppale",
-
-    "manager-card-header": "Manager",
-    "manager-card-p": "La gestione delle persone è per noi un'arte. Aiutiamo i manager attuali o aspiranti ad acquisire consapevolezza e capire come ottenere il meglio di sé e degli altri.",
-
-    "companiy-card-header": "Aziende",
-    "companiy-card-p": "Dal singolo al team, verso maggior engagement e più grandi risultati.",
-    "companiy-card-li-1": "Attraverso strumenti di assessment testati, validati e in costante evoluzione",
-    "companiy-card-li-2": "Integrando le nuove tecnologie con incontri mirati e personalizzati",
-    "companiy-card-li-3": "Fornendo feedback puntuali alla persona, al team e all'azienda, per il raggiungimento degli obiettivi comuni",
-    "companiy-card-li-4": "Con follow-up e verifiche regolari, svolti con costanza, attenzione e cura",
-    "companiy-card-li-5": "Mantenendo sempre attivi i canali di ascolto, per garantire interventi tempestivi ed efficaci",
-
-    "approach-header": "Il nostro approccio",
-    "approach-under-header": "Attento, sostenibile, umano.",
-
-    "listening-header": "Ascolto",
-    "listening-p": "Leggiamo le e-mail introduttive, ascoltiamo le prime telefonate e organizziamo delle videochiamate per individuare le esigenze individuali.",
-
-    "assesment-header": "Valutazione",
-    "assesment-p": "Analizziamo le informazioni, definiamo i bisogni e proponiamo l’intervento, cercando di farlo breve, efficace e sostenibile.",
-
-    "support-header": "Supporto",
-    "support-p": "Iniziamo il programma di interventi, monitoriamo il progresso, apportiamo modifiche se occorre e terminiamo quando la persona si dichiara pronta a gestire le situazioni in modo autonomo.",
-
-    "contact-us-btn": "Contattaci",
-
-    "footer-desc": "Competente umanità per ogni fase della vita personale e professionale.",
-
-    "footer-links": "Link Utili",
-    "footer-links-home": "Home",
-    "footer-links-services": "Servizi",
-    "footer-links-about": "Chi siamo",
-
-    "footer-contact-header": "Connettiti con noi",
-    "footer-contact-phone": "Telefono: +39 375 591 4458",
-
-    "copyright": "© 2025 PL people, persons, needs. Tutti i diritti riservati.",
-    
-    "about-header": "Chi siamo",
-    "about-p": "Persone che si dedicano allo sviluppo di altre persone.",
-
-    "join-header": "Siamo persone come voi.",
-    "join-1": "Persone che devono fare delle scelte.",
-    "join-2": "Persone che attraversano momenti difficili.",
-    "join-3": "Che affrontano paure, dubbi e sfide diventando resilienti.",
-    "join-4": "Che trasformano le crisi in opportunità, e da esse forgiano nuove identità.",
-    "join-5": "Persone che ascoltano per comprendere, per sostenere.",
-    "join-6": "Professionisti di diverse scienze al servizio dell'umanità, per costruire una società resiliente e solidale.",
-
-    "contact-us-header": "Connettiti con noi",
-    "about-phone": "Telefono",
-
-    "form-header": "Contattaci",
-    "form1": "Nome *",
-    "form1placeholder": "Il tuo nome",
-
-    "form2": "Email *",
-    "form2placeholder": "la.tua.email@example.com",
-
-    "form3": "Azienda",
-    "form3placeholder": "Nome della tua azienda (opzionale)",
-
-    "form4": "Messaggio",
-    "form4placeholder": "Descrivi le tue esigenze o fai le tue domande...",
-
-    "formBtn": "Invia Messaggio"
-  },
-  bg: {
-    "nav-home-btn": "Начало",
-    "nav-service-btn": "Услуги",
-    "nav-about-btn": "За нас",
-
-    "hero-1": "За лесните моменти има мнозина.",
-    "hero-2": "За предизвикателните моменти сме ние.",
-    "hero-3": "Компетентна човечност за всеки етап от Вашия личен и професионален живот.",
-    "hero-4": "people, persons, needs",
-    "hero-5": "Никога повече сами.",
-    "hero-6": "Нашите услуги ",
-
-    "services-header": "Нашите услуги",
-    "services-under-header": "Компетентна човечност за всеки етап от Вашия личен и професионален живот.",
-
-    "student-card-header": "Студенти и наскоро завършили",
-    "student-card-p": "Помагаме на гимназисти да изберат университетско образование, на студенти да изберат магистърски програми и на наскоро завършили да съгласуват избора си на кариера с личността и стремежите си.",
-
-    "professional-card-header": "Професионалисти и работещи",
-    "professional-card-p": "Помагаме на хората да хармонизират и балансират двете сфери на живота – лична и професионална.",
-    "professional-card-li-1": "Емоционална и психологическа подкрепа за управление на семейството, децата и родителите.",
-    "professional-card-li-2": "Подкрепа за професионална ориентация, кариерни преходи, смяна или търсене на работа, развитие на нови умения, подобряване на работните взаимоотношения и правни въпроси.",
-    "professional-card-li-3": "Програми и инициативи, насочени към поддържане на психо-физическото благополучие индивидуално и в групи.",
-
-    "manager-card-header": "Мениджъри",
-    "manager-card-p": "За нас управлението на хора е изкуство. Помагаме на настоящи или бъдещи мениджъри да придобият осъзнатост и да разберат как да извлекат най-доброто от себе си и от другите.",
-
-    "companiy-card-header": "Компании",
-    "companiy-card-p": "От индивида до екипа, към по-голяма ангажираност и по-големи резултати.",
-    "companiy-card-li-1": "Чрез тествани, валидирани и постоянно развиващи се инструменти за оценка.",
-    "companiy-card-li-2": "Чрез интегриране на нови технологии с целенасочени и персонализирани срещи.",
-    "companiy-card-li-3": "Чрез предоставяне на навременна обратна връзка на човека, екипа и компанията за постигане на общи цели.",
-    "companiy-card-li-4": "С редовни последващи действия и проверки, извършвани с последователност, внимание и грижа.",
-    "companiy-card-li-5": "Винаги поддържайки активни канали за изслушване, за да се гарантират навременни и ефективни интервенции.",
-
-    "approach-header": "Нашият подход",
-    "approach-under-header": "Внимателен, икономически издръжлив, човечен.",
-
-    "listening-header": "Изслушване",
-    "listening-p": "Четем уводни имейли, слушаме първоначални телефонни разговори и организираме видео разговори, за да идентифицираме индивидуалните нужди.",
-
-    "assesment-header": "Оценка",
-    "assesment-p": "Анализираме информацията, дефинираме нуждите и предлагаме интервенция, като се стремим тя да бъде кратка, ефективна и устойчива.",
-
-    "support-header": "Подкрепа",
-    "support-p": "Започваме програмата за интервенции, следим напредъка, правим промени при необходимост и приключваме, когато човекът се обяви за готов да се справя със ситуациите самостоятелно.",
-
-    "contact-us-btn": "Свържете се с нас",
-
-    "footer-desc": "Компетентна човечност за всеки етап от Вашия личен и професионален живот.",
-
-    "footer-links": "Линкове",
-    "footer-links-home": "Начало",
-    "footer-links-services": "Услуги",
-    "footer-links-about": "За нас",
-
-    "footer-contact-header": "Свържете се с нас",
-    "footer-contact-phone": "Телефон: +39 375 591 4458",
-
-    "copyright": "© 2025 PL people, persons, needs. Всички права запазени.",
-    
-    "about-header": "За нас",
-    "about-p": "Хора, посветени на развитието на други хора.",
-
-    "join-header": "Ние сме хора като вас.",
-    "join-1": "Хора, които трябва да правят избори.",
-    "join-2": "Хора, които преминават през трудни моменти.",
-    "join-3": "Които се изправят пред страхове, съмнения и предизвикателства, ставайки устойчиви.",
-    "join-4": "Които превръщат кризите във възможности и от тях изковават нови идентичности.",
-    "join-5": "Хора, които слушат, за да разберат, за да подкрепят.",
-    "join-6": "Професионалисти от различни науки в служба на човечеството, за да изградим устойчиво и солидарно общество.",
-
-    "contact-us-header": "Свържете се с нас",
-    "about-phone": "Телефон",
-
-    "form-header": "Свържете се с нас",
-    "form1": "Име *",
-    "form1placeholder": "Вашето име",
-
-    "form2": "Имейл *",
-    "form2placeholder": "your.email@example.com",
-
-    "form3": "Компания",
-    "form3placeholder": "Име на вашата компания (по избор)",
-
-    "form4": "Съобщение",
-    "form4placeholder": "Опишете вашите нужди или задайте въпросите си...",
-
-    "formBtn": "Изпрати съобщение"
-  },
+   en: {
+      'nav-home-btn': 'Home',
+      'nav-service-btn': 'Services',
+      'nav-about-btn': 'About us',
+      'nav-privacy-btn': 'Privacy',
+
+      'hero-1': 'For the easy moments, there are many.',
+      'hero-2': 'For the challenging moments, you have us.',
+      'hero-3': 'Competent humanity for every stage of your personal and professional life.',
+      'hero-4': 'people, persons, needs',
+      'hero-5': 'Never alone again.',
+      'hero-6': 'Discover Our Services ',
+
+      'services-header': 'OUR SERVCIES',
+      'services-under-header': 'Competent humanity for every stage of your personal and professional life.',
+
+      'student-card-header': 'Students and recent graduates',
+      'student-card-p':
+         'We help high school students choose university studies, undergraduates select advanced courses, and recent graduates align career choices with personality and aspirations.',
+
+      'professional-card-header': 'Professionals and workers',
+      'professional-card-p':
+         'We help individuals harmonize and balance the two spheres of life, personal and professional.',
+      'professional-card-li-1': 'Emotional and psychological support for managing family, children, and parents.',
+      'professional-card-li-2':
+         'Support for professional orientation, career transitions, job changes or searches, development of new skills, improvement of work relationships, and legal issues.',
+      'professional-card-li-3':
+         'Programs and initiatives aimed at maintaining psycho-physical well-being individually and in groups.',
+
+      'manager-card-header': 'Managers',
+      'manager-card-p':
+         'For us, people management is an art. We help current or aspiring managers gain awareness and understand how to get the best out of themselves and others.',
+
+      'companiy-card-header': 'Companies',
+      'companiy-card-p': 'From the individual to the team, towards greater engagement and bigger results.',
+      'companiy-card-li-1': 'Through tested, validated, and constantly evolving assessment tools.',
+      'companiy-card-li-2': 'By integrating new technologies with targeted and personalized meetings.',
+      'companiy-card-li-3':
+         'By providing timely feedback to the person, the team, and the company, to achieve common goals.',
+      'companiy-card-li-4': 'With regular follow-ups and checks, carried out with consistency, attention, and care.',
+      'companiy-card-li-5': 'Always keeping listening channels active, to ensure timely and effective interventions.',
+
+      'approach-header': 'Our Approach',
+      'approach-under-header': 'Attentive, sustainable, human',
+
+      'listening-header': 'Listening',
+      'listening-p':
+         'We read introductory emails, listen to initial phone calls, and organize video calls to identify individual needs.',
+
+      'assesment-header': 'Assessment',
+      'assesment-p':
+         'We analyze the information, define the needs, and propose the intervention, trying to make it brief, effective, and sustainable.',
+
+      'support-header': 'Support',
+      'support-p':
+         'We start the intervention program, monitor progress, make changes if needed, and finish when the person declares readiness to handle situations autonomously.',
+
+      'contact-us-btn': 'Contact Us',
+
+      'footer-desc': 'Competent humanity for every stage of your personal and professional life.',
+
+      'footer-links': 'Links',
+      'footer-links-home': 'Home',
+      'footer-links-services': 'Services',
+      'footer-links-about': 'About us',
+      'footer-links-privacy': 'Privacy',
+
+      'footer-contact-header': 'Contact Us',
+      'footer-contact-phone': 'Phone: +39 375 591 4458',
+
+      copyright: '© 2025 PL people, persons, needs. All rights reserved.',
+
+      'about-header': 'About Us',
+      'about-p': 'People dedicated to the development of other people.',
+
+      'join-header': 'We are people like you.',
+      'join-1': 'People who have to make choices.',
+      'join-2': 'People who go through difficult times.',
+      'join-3': 'Who face fears, doubts, and challenges, becoming resilient.',
+      'join-4': 'Who transform crises into opportunities, and from them forge new identities.',
+      'join-5': 'People who listen to understand, to support.',
+      'join-6':
+         'Professionals from different sciences in service of humanity, to build a resilient and supportive society.',
+
+      'contact-us-header': 'Contact us',
+      'about-phone': 'Phone',
+
+      'form-header': 'Contact Us',
+      form1: 'Name *',
+      form1placeholder: 'Your name',
+
+      form2: 'Email *',
+      form2placeholder: 'your.email@example.com',
+
+      form3: 'Company',
+      form3placeholder: 'Your company name (optional)',
+
+      form4: 'Message',
+      form4placeholder: 'Describe your needs or as your questions...',
+
+      formTerms: 'By clicking Submit, you agree to the <a href="assets/privacyEN.docx">terms and conditions.</a>',
+
+      formBtn: 'Send Message',
+
+      privacyh1: 'Privacy policy',
+      privacyText:
+         'Your privacy is important to us. Therefore, please click here to view the most recent version of our Privacy Policy. By using one or more of our services, you agree to <a href="assets/privacyEN.docx">this Privacy Policy.</a>',
+   },
+
+   it: {
+      'nav-home-btn': 'Home',
+      'nav-service-btn': 'Servizi',
+      'nav-about-btn': 'Chi siamo',
+      'nav-privacy-btn': 'Riservatezza',
+
+      'hero-1': 'Per i momenti facili ci sono in tanti.',
+      'hero-2': 'Per i momenti di sfida ci siamo noi.',
+      'hero-3': 'Competente umanità per ogni fase della vita personale e professionale.',
+      'hero-4': 'people, persons, needs',
+      'hero-5': 'Mai più soli.',
+      'hero-6': 'Scopri i nostri servizi',
+
+      'services-header': 'I nostri servizi',
+      'services-under-header': 'Competente umanità per ogni fase della vita personale e professionale.',
+
+      'student-card-header': 'Studenti e neolaureati',
+      'student-card-p':
+         'Aiutiamo studenti delle scuole superiori a scegliere gli studi universitari, laureandi a selezionare corsi avanzati, e neolaureati ad allineare le scelte di carriera con personalità e aspirazioni.',
+
+      'professional-card-header': 'Professionisti e lavoratori',
+      'professional-card-p':
+         'Aiutiamo gli individui ad armonizzare e bilanciare le due sfere della vita, personale e professionale',
+      'professional-card-li-1': 'Supporto emotivo e psicologico per la gestione di famiglia, figli e genitori',
+      'professional-card-li-2':
+         'Supporto di orientamento professionale, transizioni di carriera, cambio o ricerca di lavoro, sviluppo di nuove competenze, miglioramento delle relazioni al lavoro e questioni legali',
+      'professional-card-li-3':
+         'Programmi e iniziative volte al mantenimento del benessere psico-fisico in modo individuale e gruppale',
+
+      'manager-card-header': 'Manager',
+      'manager-card-p':
+         "La gestione delle persone è per noi un'arte. Aiutiamo i manager attuali o aspiranti ad acquisire consapevolezza e capire come ottenere il meglio di sé e degli altri.",
+
+      'companiy-card-header': 'Aziende',
+      'companiy-card-p': 'Dal singolo al team, verso maggior engagement e più grandi risultati.',
+      'companiy-card-li-1': 'Attraverso strumenti di assessment testati, validati e in costante evoluzione',
+      'companiy-card-li-2': 'Integrando le nuove tecnologie con incontri mirati e personalizzati',
+      'companiy-card-li-3':
+         "Fornendo feedback puntuali alla persona, al team e all'azienda, per il raggiungimento degli obiettivi comuni",
+      'companiy-card-li-4': 'Con follow-up e verifiche regolari, svolti con costanza, attenzione e cura',
+      'companiy-card-li-5':
+         'Mantenendo sempre attivi i canali di ascolto, per garantire interventi tempestivi ed efficaci',
+
+      'approach-header': 'Il nostro approccio',
+      'approach-under-header': 'Attento, sostenibile, umano.',
+
+      'listening-header': 'Ascolto',
+      'listening-p':
+         'Leggiamo le e-mail introduttive, ascoltiamo le prime telefonate e organizziamo delle videochiamate per individuare le esigenze individuali.',
+
+      'assesment-header': 'Valutazione',
+      'assesment-p':
+         'Analizziamo le informazioni, definiamo i bisogni e proponiamo l’intervento, cercando di farlo breve, efficace e sostenibile.',
+
+      'support-header': 'Supporto',
+      'support-p':
+         'Iniziamo il programma di interventi, monitoriamo il progresso, apportiamo modifiche se occorre e terminiamo quando la persona si dichiara pronta a gestire le situazioni in modo autonomo.',
+
+      'contact-us-btn': 'Contattaci',
+
+      'footer-desc': 'Competente umanità per ogni fase della vita personale e professionale.',
+
+      'footer-links': 'Link Utili',
+      'footer-links-home': 'Home',
+      'footer-links-services': 'Servizi',
+      'footer-links-about': 'Chi siamo',
+      'footer-links-privacy': 'Riservatezza',
+
+      'footer-contact-header': 'Connettiti con noi',
+      'footer-contact-phone': 'Telefono: +39 375 591 4458',
+
+      copyright: '© 2025 PL people, persons, needs. Tutti i diritti riservati.',
+
+      'about-header': 'Chi siamo',
+      'about-p': 'Persone che si dedicano allo sviluppo di altre persone.',
+
+      'join-header': 'Siamo persone come voi.',
+      'join-1': 'Persone che devono fare delle scelte.',
+      'join-2': 'Persone che attraversano momenti difficili.',
+      'join-3': 'Che affrontano paure, dubbi e sfide diventando resilienti.',
+      'join-4': 'Che trasformano le crisi in opportunità, e da esse forgiano nuove identità.',
+      'join-5': 'Persone che ascoltano per comprendere, per sostenere.',
+      'join-6':
+         "Professionisti di diverse scienze al servizio dell'umanità, per costruire una società resiliente e solidale.",
+
+      'contact-us-header': 'Connettiti con noi',
+      'about-phone': 'Telefono',
+
+      'form-header': 'Contattaci',
+      form1: 'Nome *',
+      form1placeholder: 'Il tuo nome',
+
+      form2: 'Email *',
+      form2placeholder: 'la.tua.email@example.com',
+
+      form3: 'Azienda',
+      form3placeholder: 'Nome della tua azienda (opzionale)',
+
+      form4: 'Messaggio',
+      form4placeholder: 'Descrivi le tue esigenze o fai le tue domande...',
+
+      formTerms: 'Cliccando su Invia Messaggio, accetti i <a href="assets/privacyIT.docx">termini e le condizioni.</a>',
+
+      formBtn: 'Invia Messaggio',
+
+      privacyh1: 'Controlla la nostra Politica sulla Privacy',
+      privacyText:
+         'La tua privacy è importante per noi. Per questo, ti preghiamo di <a href="assets/privacyIT.docx">cliccare qui</a> per consultare la versione più recente della nostra Politica sulla Privacy. L’utilizzo di uno o più dei nostri servizi comporta l’accettazione di questa Politica sulla Privacy.',
+   },
+   bg: {
+      'nav-home-btn': 'Начало',
+      'nav-service-btn': 'Услуги',
+      'nav-about-btn': 'За нас',
+      'nav-privacy-btn': 'Поверителност',
+
+      'hero-1': 'За лесните моменти има мнозина.',
+      'hero-2': 'За предизвикателните моменти сме ние.',
+      'hero-3': 'Компетентна човечност за всеки етап от Вашия личен и професионален живот.',
+      'hero-4': 'people, persons, needs',
+      'hero-5': 'Никога повече сами.',
+      'hero-6': 'Нашите услуги ',
+
+      'services-header': 'Нашите услуги',
+      'services-under-header': 'Компетентна човечност за всеки етап от Вашия личен и професионален живот.',
+
+      'student-card-header': 'Студенти и наскоро завършили',
+      'student-card-p':
+         'Помагаме на гимназисти да изберат университетско образование, на студенти да изберат магистърски програми и на наскоро завършили да съгласуват избора си на кариера с личността и стремежите си.',
+
+      'professional-card-header': 'Професионалисти и работещи',
+      'professional-card-p':
+         'Помагаме на хората да хармонизират и балансират двете сфери на живота – лична и професионална.',
+      'professional-card-li-1':
+         'Емоционална и психологическа подкрепа за управление на семейството, децата и родителите.',
+      'professional-card-li-2':
+         'Подкрепа за професионална ориентация, кариерни преходи, смяна или търсене на работа, развитие на нови умения, подобряване на работните взаимоотношения и правни въпроси.',
+      'professional-card-li-3':
+         'Програми и инициативи, насочени към поддържане на психо-физическото благополучие индивидуално и в групи.',
+
+      'manager-card-header': 'Мениджъри',
+      'manager-card-p':
+         'За нас управлението на хора е изкуство. Помагаме на настоящи или бъдещи мениджъри да придобият осъзнатост и да разберат как да извлекат най-доброто от себе си и от другите.',
+
+      'companiy-card-header': 'Компании',
+      'companiy-card-p': 'От индивида до екипа, към по-голяма ангажираност и по-големи резултати.',
+      'companiy-card-li-1': 'Чрез тествани, валидирани и постоянно развиващи се инструменти за оценка.',
+      'companiy-card-li-2': 'Чрез интегриране на нови технологии с целенасочени и персонализирани срещи.',
+      'companiy-card-li-3':
+         'Чрез предоставяне на навременна обратна връзка на човека, екипа и компанията за постигане на общи цели.',
+      'companiy-card-li-4':
+         'С редовни последващи действия и проверки, извършвани с последователност, внимание и грижа.',
+      'companiy-card-li-5':
+         'Винаги поддържайки активни канали за изслушване, за да се гарантират навременни и ефективни интервенции.',
+
+      'approach-header': 'Нашият подход',
+      'approach-under-header': 'Внимателен, икономически издръжлив, човечен.',
+
+      'listening-header': 'Изслушване',
+      'listening-p':
+         'Четем уводни имейли, слушаме първоначални телефонни разговори и организираме видео разговори, за да идентифицираме индивидуалните нужди.',
+
+      'assesment-header': 'Оценка',
+      'assesment-p':
+         'Анализираме информацията, дефинираме нуждите и предлагаме интервенция, като се стремим тя да бъде кратка, ефективна и устойчива.',
+
+      'support-header': 'Подкрепа',
+      'support-p':
+         'Започваме програмата за интервенции, следим напредъка, правим промени при необходимост и приключваме, когато човекът се обяви за готов да се справя със ситуациите самостоятелно.',
+
+      'contact-us-btn': 'Свържете се с нас',
+
+      'footer-desc': 'Компетентна човечност за всеки етап от Вашия личен и професионален живот.',
+
+      'footer-links': 'Линкове',
+      'footer-links-home': 'Начало',
+      'footer-links-services': 'Услуги',
+      'footer-links-about': 'За нас',
+      'footer-links-privacy': 'Поверителност',
+
+      'footer-contact-header': 'Свържете се с нас',
+      'footer-contact-phone': 'Телефон: +39 375 591 4458',
+
+      copyright: '© 2025 PL people, persons, needs. Всички права запазени.',
+
+      'about-header': 'За нас',
+      'about-p': 'Хора, посветени на развитието на други хора.',
+
+      'join-header': 'Ние сме хора като вас.',
+      'join-1': 'Хора, които трябва да правят избори.',
+      'join-2': 'Хора, които преминават през трудни моменти.',
+      'join-3': 'Които се изправят пред страхове, съмнения и предизвикателства, ставайки устойчиви.',
+      'join-4': 'Които превръщат кризите във възможности и от тях изковават нови идентичности.',
+      'join-5': 'Хора, които слушат, за да разберат, за да подкрепят.',
+      'join-6':
+         'Професионалисти от различни науки в служба на човечеството, за да изградим устойчиво и солидарно общество.',
+
+      'contact-us-header': 'Свържете се с нас',
+      'about-phone': 'Телефон',
+
+      'form-header': 'Свържете се с нас',
+      form1: 'Име *',
+      form1placeholder: 'Вашето име',
+
+      form2: 'Имейл *',
+      form2placeholder: 'your.email@example.com',
+
+      form3: 'Компания',
+      form3placeholder: 'Име на вашата компания (по избор)',
+
+      form4: 'Съобщение',
+      form4placeholder: 'Опишете вашите нужди или задайте въпросите си...',
+
+      formTerms: 'С натискане на „Изпрати“ приемате <a href="assets/privacyBG.docx">общите условия.</a>',
+
+      formBtn: 'Изпрати съобщение',
+
+      privacyh1: 'Прегледайте нашата Политика за поверителност',
+      privacyText:
+         'Вашата поверителност е важна за нас. Затова, моля, кликнете <a href="assets/privacyBG.docx">тук</a>, за да видите най-актуалната версия на нашата Политика за поверителност: използването на една или повече от нашите услуги означава приеманеto на тази Политика за поверителност.',
+   },
 };
 
-let currentLanguage = "en";
+let currentLanguage = 'en';
 
 function t(key) {
-  return translations[currentLanguage][key] || key;
+   return translations[currentLanguage][key] || key;
 }
 
 function getHomeContent() {
-  return `
+   return `
   <main>
       <section id="hero">
           <div class="overlay"></div>
@@ -447,7 +504,9 @@ function getHomeContent() {
 
                     <div class="form-group">
                         <label for="form-email">${t('form2')}</label>
-                        <input type="email" id="form-email" name="email" placeholder="${t('form2placeholder')}" required>
+                        <input type="email" id="form-email" name="email" placeholder="${t(
+                           'form2placeholder'
+                        )}" required>
                     </div>
 
                     <div class="form-group">
@@ -457,8 +516,12 @@ function getHomeContent() {
 
                     <div class="form-group">
                         <label for="form-message">${t('form4')}</label>
-                        <textarea id="form-message" name="message" placeholder="${t('form4placeholder')}" required></textarea>
+                        <textarea id="form-message" name="message" placeholder="${t(
+                           'form4placeholder'
+                        )}" required></textarea>
                     </div>
+
+                    <p>${t('formTerms')}</p>
 
                     <button type="submit" class="submit-btn">${t('formBtn')}</button>
                 </form>
@@ -470,7 +533,7 @@ function getHomeContent() {
 }
 
 function getAboutContent() {
-  return `
+   return `
   <section id="about-hero">
       <div class="overlay"></div>
       <div class="content">
@@ -505,308 +568,355 @@ function getAboutContent() {
   `;
 }
 
+function getPrivacyContent() {
+   return `
+  <section id="privacy-hero">
+  </section>
+
+  <section id="privacy-main">
+    <h2>${t('privacyh1')}</h2>
+    <p>${t('privacyText')}</p>
+  </section>
+  `;
+}
+
 function openContactModal() {
-    const modal = document.getElementById('contactModal');
-    console.log("open modal");
-    
-    if (modal) {
-        modal.classList.add('active');
-        document.body.style.overflow = 'hidden';
-    }
+   const modal = document.getElementById('contactModal');
+   console.log('open modal');
+
+   if (modal) {
+      modal.classList.add('active');
+      document.body.style.overflow = 'hidden';
+   }
 }
 
 function closeContactModal() {
-    const modal = document.getElementById('contactModal');
-    if (modal) {
-        modal.classList.remove('active');
-        document.body.style.overflow = '';
-    }
+   const modal = document.getElementById('contactModal');
+   if (modal) {
+      modal.classList.remove('active');
+      document.body.style.overflow = '';
+   }
 }
 
 function setupContactButton() {
-    const contactBtn = document.querySelector('#contact-btn');
-    if (contactBtn) {
-        contactBtn.addEventListener('click', openContactModal);
-    }
+   const contactBtn = document.querySelector('#contact-btn');
+   if (contactBtn) {
+      contactBtn.addEventListener('click', openContactModal);
+   }
 }
 
 function setupContactForm() {
-    const contactForm = document.getElementById('contactForm');
-    if (!contactForm) return;
+   const contactForm = document.getElementById('contactForm');
+   if (!contactForm) return;
 
-    contactForm.addEventListener('submit', async function(e) {
-        e.preventDefault();
+   contactForm.addEventListener('submit', async function (e) {
+      e.preventDefault();
 
-        const submitBtn = this.querySelector('.submit-btn');
-        const successMsg = document.getElementById('successMessage');
-        const errorMsg = document.getElementById('errorMessage');
+      const submitBtn = this.querySelector('.submit-btn');
+      const successMsg = document.getElementById('successMessage');
+      const errorMsg = document.getElementById('errorMessage');
 
-        successMsg.style.display = 'none';
-        errorMsg.style.display = 'none';
+      successMsg.style.display = 'none';
+      errorMsg.style.display = 'none';
 
-        submitBtn.disabled = true;
-        submitBtn.textContent = 'Sending...';
+      submitBtn.disabled = true;
+      submitBtn.textContent = 'Sending...';
 
-        const formData = {
-            name: document.getElementById('form-name').value,
-            email: document.getElementById('form-email').value,
-            phone: document.getElementById('form-phone').value,
-            message: document.getElementById('form-message').value
-        };
+      const formData = {
+         name: document.getElementById('form-name').value,
+         email: document.getElementById('form-email').value,
+         phone: document.getElementById('form-phone').value,
+         message: document.getElementById('form-message').value,
+      };
 
-        try {
-            const response = await fetch('https://formspree.io/f/mnngbqwp', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify(formData)
-            });
+      try {
+         const response = await fetch('https://formspree.io/f/mnngbqwp', {
+            method: 'POST',
+            headers: {
+               'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(formData),
+         });
 
-            if (response.ok) {
-                successMsg.style.display = 'block';
-                contactForm.reset();
-                
-                setTimeout(() => {
-                    closeContactModal();
-                    successMsg.style.display = 'none';
-                }, 2000);
-            } else {
-                errorMsg.style.display = 'block';
-            }
-        } catch (error) {
+         if (response.ok) {
+            successMsg.style.display = 'block';
+            contactForm.reset();
+
+            setTimeout(() => {
+               closeContactModal();
+               successMsg.style.display = 'none';
+            }, 2000);
+         } else {
             errorMsg.style.display = 'block';
-            console.error('Form submission error:', error);
-        } finally {
-            submitBtn.disabled = false;
-            submitBtn.textContent = t('contact-us-btn');
-        }
-    });
+         }
+      } catch (error) {
+         errorMsg.style.display = 'block';
+         console.error('Form submission error:', error);
+      } finally {
+         submitBtn.disabled = false;
+         submitBtn.textContent = t('contact-us-btn');
+      }
+   });
 }
 
 function setupModalEventListeners() {
-    const modal = document.getElementById('contactModal');
-    
-    // Close on outside click
-    window.addEventListener('click', function(event) {
-        if (event.target === modal) {
-            closeContactModal();
-        }
-    });
+   const modal = document.getElementById('contactModal');
 
-    document.addEventListener('keydown', function(event) {
-        if (event.key === 'Escape') {
-            closeContactModal();
-        }
-    });
+   // Close on outside click
+   window.addEventListener('click', function (event) {
+      if (event.target === modal) {
+         closeContactModal();
+      }
+   });
 
-    const closeBtn = document.querySelector('.close-modal-btn');
-    if (closeBtn) {
-        closeBtn.addEventListener('click', closeContactModal);
-    }
+   document.addEventListener('keydown', function (event) {
+      if (event.key === 'Escape') {
+         closeContactModal();
+      }
+   });
+
+   const closeBtn = document.querySelector('.close-modal-btn');
+   if (closeBtn) {
+      closeBtn.addEventListener('click', closeContactModal);
+   }
 }
 
-
 function updateNavigation() {
-    const homeBtn = document.querySelector('#nav-home a');
-    const serviceBtn = document.querySelector('#nav-service a'); 
-    const aboutBtn = document.querySelector('#nav-about a');
+   const homeBtn = document.querySelector('#nav-home a');
+   const serviceBtn = document.querySelector('#nav-service a');
+   const aboutBtn = document.querySelector('#nav-about a');
+   const privacyBtn = document.querySelector('#nav-privacy a');
 
-    if (homeBtn) homeBtn.textContent = t('nav-home-btn');
-    if (serviceBtn) serviceBtn.textContent = t('nav-service-btn');
-    if (aboutBtn) aboutBtn.textContent = t('nav-about-btn');
+   if (homeBtn) homeBtn.textContent = t('nav-home-btn');
+   if (serviceBtn) serviceBtn.textContent = t('nav-service-btn');
+   if (aboutBtn) aboutBtn.textContent = t('nav-about-btn');
+   if (privacyBtn) privacyBtn.textContent = t('nav-privacy-btn');
 
-    const homeMobileBtn = document.querySelector('#nav-home-mobile a');
-    const serviceobileBtn = document.querySelector('#nav-service-mobile a');
-    const aboutMobileBtn = document.querySelector('#nav-about-mobile a');
+   const homeMobileBtn = document.querySelector('#nav-home-mobile a');
+   const serviceobileBtn = document.querySelector('#nav-service-mobile a');
+   const aboutMobileBtn = document.querySelector('#nav-about-mobile a');
+   const privacyMobileBtn = document.querySelector('#nav-privacy-mobile a');
 
-    if (homeMobileBtn) homeMobileBtn.textContent = t('nav-home-btn');
-    if (serviceobileBtn) serviceobileBtn.textContent = t('nav-service-btn');
-    if (aboutMobileBtn) aboutMobileBtn.textContent = t('nav-about-btn');
+   if (homeMobileBtn) homeMobileBtn.textContent = t('nav-home-btn');
+   if (serviceobileBtn) serviceobileBtn.textContent = t('nav-service-btn');
+   if (aboutMobileBtn) aboutMobileBtn.textContent = t('nav-about-btn');
+   if (privacyMobileBtn) privacyMobileBtn.textContent = t('nav-privacy-btn');
 
-    const footerDesc = document.querySelector('.footer-desc');
-    const footerLinks = document.querySelector('.footer-links h3');
-    const footerContact = document.querySelector('.footer-contacts h3');
-    const copyright = document.querySelector('.copyright');
+   const footerDesc = document.querySelector('.footer-desc');
+   const footerLinks = document.querySelector('.footer-links h3');
+   const footerContact = document.querySelector('.footer-contacts h3');
+   const copyright = document.querySelector('.copyright');
 
-    if (footerDesc) footerDesc.textContent = t('footer-desc');
-    if (footerLinks) footerLinks.textContent = t('footer-links');
-    if (footerContact) footerContact.textContent = t('footer-contact-header');
-    if (copyright) copyright.textContent = t('copyright');
+   if (footerDesc) footerDesc.textContent = t('footer-desc');
+   if (footerLinks) footerLinks.textContent = t('footer-links');
+   if (footerContact) footerContact.textContent = t('footer-contact-header');
+   if (copyright) copyright.textContent = t('copyright');
 
-    const footerHomeBtns = document.querySelectorAll('.home-btn');
-    const footerServiceBtns = document.querySelectorAll('.service-btn');
-    const footerAboutBtns = document.querySelectorAll('.about-btn');
+   const footerHomeBtns = document.querySelectorAll('.home-btn');
+   const footerServiceBtns = document.querySelectorAll('.service-btn');
+   const footerAboutBtns = document.querySelectorAll('.about-btn');
+   const footerPrivacyBtns = document.querySelectorAll('.privacy-btn');
 
-    footerHomeBtns.forEach(btn => btn.textContent = t('footer-links-home'));
-    footerServiceBtns.forEach(btn => btn.textContent = t('footer-links-services'));
-    footerAboutBtns.forEach(btn => btn.textContent = t('footer-links-about'));
+   footerHomeBtns.forEach((btn) => (btn.textContent = t('footer-links-home')));
+   footerServiceBtns.forEach((btn) => (btn.textContent = t('footer-links-services')));
+   footerAboutBtns.forEach((btn) => (btn.textContent = t('footer-links-about')));
+   footerPrivacyBtns.forEach((btn) => (btn.textContent = t('footer-links-privacy')));
 }
 
 function updateActiveNavButton(activeSection) {
-    const allNavBtns = document.querySelectorAll('#nav-home, #nav-service, #nav-about');
-    allNavBtns.forEach(btn => btn.classList.remove('active'));
+   const allNavBtns = document.querySelectorAll('#nav-home, #nav-service, #nav-about, #nav-privacy');
+   allNavBtns.forEach((btn) => btn.classList.remove('active'));
 
-    let activeBtn;
-    switch(activeSection) {
-        case 'home':
-            activeBtn = document.querySelector('#nav-home');
-            break;
-        case 'service':
-        case 'services':
-            activeBtn = document.querySelector('#nav-service');
-            break;
-        case 'about':
-            activeBtn = document.querySelector('#nav-about');
-            break;
-    }
-    
-    if (activeBtn) {
-        activeBtn.classList.add('active');
-    }
+   let activeBtn;
+   switch (activeSection) {
+      case 'home':
+         activeBtn = document.querySelector('#nav-home');
+         break;
+      case 'services':
+         activeBtn = document.querySelector('#nav-service');
+         break;
+      case 'about':
+         activeBtn = document.querySelector('#nav-about');
+         break;
+      case 'privacy':
+         activeBtn = document.querySelector('#nav-privacy');
+         break;
+   }
+
+   if (activeBtn) {
+      activeBtn.classList.add('active');
+   }
 }
 
 function showHome() {
-    document.getElementById('main-content').innerHTML = getHomeContent();
-    updateNavigation();
-    updateActiveNavButton('home');
-    setupContactButton();  
-    setupModalEventListeners();  
-    setupContactForm();   
-    const heroBtn = document.getElementById('hero-btn');
-    heroBtn.addEventListener('click', showServices);
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+   document.getElementById('main-content').innerHTML = getHomeContent();
+   updateNavigation();
+   updateActiveNavButton('home');
+   setupContactButton();
+   setupModalEventListeners();
+   setupContactForm();
+   const heroBtn = document.getElementById('hero-btn');
+   heroBtn.addEventListener('click', showServices);
+   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
 function showAbout() {
-    document.getElementById('main-content').innerHTML = getAboutContent();
-    updateNavigation();
-    updateActiveNavButton('about');
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+   document.getElementById('main-content').innerHTML = getAboutContent();
+   updateNavigation();
+   updateActiveNavButton('about');
+   window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function showPrivacy() {
+   document.getElementById('main-content').innerHTML = getPrivacyContent();
+   updateNavigation();
+   updateActiveNavButton('privacy');
+   console.log('privacy');
+   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
 function showServices() {
-    showHome();
-    updateActiveNavButton('service');
-    setTimeout(() => {
-        document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' });
-    }, 50);
+   showHome();
+   updateActiveNavButton('service');
+   setTimeout(() => {
+      document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' });
+   }, 50);
 }
 
 function changeLanguage(lang) {
-    currentLanguage = lang;
-    const currentSection = document.getElementById('main-content');
-    if (currentSection.querySelector('#hero')) {
-        showHome();
-    } else if (currentSection.querySelector('#about-hero')) {
-        showAbout();
-    }
-    
-    updateNavigation();
-    updateLanguageSelector(lang);
+   currentLanguage = lang;
+   const currentSection = document.getElementById('main-content');
+   if (currentSection.querySelector('#hero')) {
+      showHome();
+   } else if (currentSection.querySelector('#about-hero')) {
+      showAbout();
+   } else if (currentSection.querySelector('#privacy-hero')) {
+      showPrivacy();
+   }
 
-    setupContactButton();
-    setupContactForm();
-    setupModalEventListeners();
+   updateNavigation();
+   updateLanguageSelector(lang);
+
+   setupContactButton();
+   setupContactForm();
+   setupModalEventListeners();
 }
 
 function updateLanguageSelector(lang) {
-    const langButtons = document.querySelectorAll('.lang-btn');
-    langButtons.forEach(btn => {
-        btn.classList.remove('active');
-        if (btn.dataset.lang === lang) {
-            btn.classList.add('active');
-        }
-    });
+   const langButtons = document.querySelectorAll('.lang-btn');
+   langButtons.forEach((btn) => {
+      btn.classList.remove('active');
+      if (btn.dataset.lang === lang) {
+         btn.classList.add('active');
+      }
+   });
 }
 
 function setupNavigation() {
-    const homeNavBtn = document.querySelector('#nav-home');
-    const serviceNavBtn = document.querySelector('#nav-service');
-    const aboutNavBtn = document.querySelector('#nav-about');
+   const homeNavBtn = document.querySelector('#nav-home');
+   const serviceNavBtn = document.querySelector('#nav-service');
+   const aboutNavBtn = document.querySelector('#nav-about');
+   const privacyNavBtn = document.querySelector('#nav-privacy');
 
-    const homeNavBtnMobile = document.querySelector('#nav-home-mobile');
-    const serviceNavBtnMobile = document.querySelector('#nav-service-mobile');
-    const aboutNavBtnMobile = document.querySelector('#nav-about-mobile');
+   const homeNavBtnMobile = document.querySelector('#nav-home-mobile');
+   const serviceNavBtnMobile = document.querySelector('#nav-service-mobile');
+   const aboutNavBtnMobile = document.querySelector('#nav-about-mobile');
+   const privacyNavBtnMobile = document.querySelector('#nav-privacy-mobile');
 
-    const footerHomeBtns = document.querySelectorAll('.home-btn');
-    const footerServiceBtns = document.querySelectorAll('.service-btn');
-    const footerAboutBtns = document.querySelectorAll('.about-btn');
+   const footerHomeBtns = document.querySelectorAll('.home-btn');
+   const footerServiceBtns = document.querySelectorAll('.service-btn');
+   const footerAboutBtns = document.querySelectorAll('.about-btn');
+   const footerPrivacyBtns = document.querySelectorAll('.privacy-btn');
 
-    const mobileDiv = document.querySelector('.mobile-div');
+   const mobileDiv = document.querySelector('.mobile-div');
 
-    const logo = document.querySelector('.logo');
-    logo.addEventListener('click', showHome);
+   const logo = document.querySelector('.logo');
+   logo.addEventListener('click', showHome);
 
-    const heroBtn = document.getElementById('hero-btn');
-    heroBtn.addEventListener('click', showServices)
+   const heroBtn = document.getElementById('hero-btn');
+   heroBtn.addEventListener('click', showServices);
 
-    if (homeNavBtn) {
-        homeNavBtn.addEventListener('click', showHome);
-    }
+   if (homeNavBtn) {
+      homeNavBtn.addEventListener('click', showHome);
+   }
 
-    homeNavBtnMobile.addEventListener('click', () => {
-        showHome();
-        mobileDiv.classList.remove('active');
-    });
-    
-    serviceNavBtnMobile.addEventListener('click', () => {
-        showServices();
-        mobileDiv.classList.remove('active');
-    });
+   homeNavBtnMobile.addEventListener('click', () => {
+      showHome();
+      mobileDiv.classList.remove('active');
+   });
 
-    aboutNavBtnMobile.addEventListener('click', () => {
-        showAbout();
-        mobileDiv.classList.remove('active');
-    });
+   serviceNavBtnMobile.addEventListener('click', () => {
+      showServices();
+      mobileDiv.classList.remove('active');
+   });
 
-    footerHomeBtns.forEach(btn => {
-        btn.addEventListener('click', showHome);
-    });
+   aboutNavBtnMobile.addEventListener('click', () => {
+      showAbout();
+      mobileDiv.classList.remove('active');
+   });
 
-    if (serviceNavBtn) {
-        serviceNavBtn.addEventListener('click', showServices);
-    }
-    footerServiceBtns.forEach(btn => {
-        btn.addEventListener('click', showServices);
-    });
+   privacyNavBtnMobile.addEventListener('click', () => {
+      showPrivacy();
+      mobileDiv.classList.remove('active');
+   });
 
-    if (aboutNavBtn) {
-        aboutNavBtn.addEventListener('click', showAbout);
-    }
-    footerAboutBtns.forEach(btn => {
-        btn.addEventListener('click', showAbout);
-    });
+   footerHomeBtns.forEach((btn) => {
+      btn.addEventListener('click', showHome);
+   });
 
-    const hamburgerBtn = document.getElementById('hamburger-btn');
-    hamburgerBtn.addEventListener('click', () => {
-        mobileDiv.classList.toggle('active');
-    })
+   if (serviceNavBtn) {
+      serviceNavBtn.addEventListener('click', showServices);
+   }
 
-    const mobileBtn = document.querySelector('.mobile-btn');
-    mobileBtn.addEventListener('click', () => {
-        mobileDiv.classList.remove('active');
-    })
+   footerServiceBtns.forEach((btn) => {
+      btn.addEventListener('click', showServices);
+   });
+
+   if (privacyNavBtn) {
+      privacyNavBtn.addEventListener('click', showPrivacy);
+   }
+
+   footerPrivacyBtns.forEach((btn) => {
+      btn.addEventListener('click', showPrivacy);
+   });
+
+   if (aboutNavBtn) {
+      aboutNavBtn.addEventListener('click', showAbout);
+   }
+
+   footerAboutBtns.forEach((btn) => {
+      btn.addEventListener('click', showAbout);
+   });
+
+   const hamburgerBtn = document.getElementById('hamburger-btn');
+   hamburgerBtn.addEventListener('click', () => {
+      mobileDiv.classList.toggle('active');
+   });
+
+   const mobileBtn = document.querySelector('.mobile-btn');
+   mobileBtn.addEventListener('click', () => {
+      mobileDiv.classList.remove('active');
+   });
 }
 
 function setupLanguageSelector() {
-    const langButtons = document.querySelectorAll('.lang-btn');
-    langButtons.forEach(btn => {
-        btn.addEventListener('click', () => {
-            changeLanguage(btn.dataset.lang);
-        });
-    });
+   const langButtons = document.querySelectorAll('.lang-btn');
+   langButtons.forEach((btn) => {
+      btn.addEventListener('click', () => {
+         changeLanguage(btn.dataset.lang);
+      });
+   });
 }
 
-document.addEventListener('DOMContentLoaded', function() {
-    updateLanguageSelector(currentLanguage);
-    
-    showHome();
-    
-    setupNavigation();
-    
-    setupLanguageSelector();
-    setupContactButton()
-    setupContactForm();
-    setupModalEventListeners();
+document.addEventListener('DOMContentLoaded', function () {
+   updateLanguageSelector(currentLanguage);
+
+   showHome();
+
+   setupNavigation();
+
+   setupLanguageSelector();
+   setupContactButton();
+   setupContactForm();
+   setupModalEventListeners();
 });
