@@ -99,13 +99,13 @@ const translations = {
       form4: 'Message',
       form4placeholder: 'Describe your needs or as your questions...',
 
-      formTerms: 'By clicking Submit, you agree to the <a href="assets/privacyEN.docx">terms and conditions.</a>',
+      formTerms: 'By clicking Submit, you agree to the <a href="assets/gdpr-en.pdf" target="_blank" rel="noopener noreferrer">terms and conditions.</a>',
 
       formBtn: 'Send Message',
 
       privacyh1: 'Privacy policy',
       privacyText:
-         'Your privacy is important to us. Therefore, please click here to view the most recent version of our Privacy Policy. By using one or more of our services, you agree to <a href="assets/privacyEN.docx">this Privacy Policy.</a>',
+         'Your privacy is important to us. Therefore, please click here to view the most recent version of our Privacy Policy. By using one or more of our services, you agree to <a href="assets/gdpr-en.pdf" target="_blank" rel="noopener noreferrer">this Privacy Policy.</a>',
    },
 
    it: {
@@ -209,13 +209,13 @@ const translations = {
       form4: 'Messaggio',
       form4placeholder: 'Descrivi le tue esigenze o fai le tue domande...',
 
-      formTerms: 'Cliccando su Invia Messaggio, accetti i <a href="assets/privacyIT.docx">termini e le condizioni.</a>',
+      formTerms: 'Cliccando su Invia Messaggio, accetti i <a href="assets/gdpr-it.pdf" target="_blank" rel="noopener noreferrer">termini e le condizioni.</a>',
 
       formBtn: 'Invia Messaggio',
 
       privacyh1: 'Controlla la nostra Politica sulla Privacy',
       privacyText:
-         'La tua privacy è importante per noi. Per questo, ti preghiamo di <a href="assets/privacyIT.docx">cliccare qui</a> per consultare la versione più recente della nostra Politica sulla Privacy. L’utilizzo di uno o più dei nostri servizi comporta l’accettazione di questa Politica sulla Privacy.',
+         'La tua privacy è importante per noi. Per questo, ti preghiamo di <a href="assets/gdpr-it.pdf" target="_blank" rel="noopener noreferrer">cliccare qui</a> per consultare la versione più recente della nostra Politica sulla Privacy. L’utilizzo di uno o più dei nostri servizi comporta l’accettazione di questa Politica sulla Privacy.',
    },
    bg: {
       'nav-home-btn': 'Начало',
@@ -320,13 +320,13 @@ const translations = {
       form4: 'Съобщение',
       form4placeholder: 'Опишете вашите нужди или задайте въпросите си...',
 
-      formTerms: 'С натискане на „Изпрати“ приемате <a href="assets/privacyBG.docx">общите условия.</a>',
+      formTerms: 'С натискане на „Изпрати“ приемате <a href="assets/gdpr-bg.pdf" target="_blank" rel="noopener noreferrer">общите условия.</a>',
 
       formBtn: 'Изпрати съобщение',
 
       privacyh1: 'Прегледайте нашата Политика за поверителност',
       privacyText:
-         'Вашата поверителност е важна за нас. Затова, моля, кликнете <a href="assets/privacyBG.docx">тук</a>, за да видите най-актуалната версия на нашата Политика за поверителност: използването на една или повече от нашите услуги означава приеманеto на тази Политика за поверителност.',
+         'Вашата поверителност е важна за нас. Затова, моля, кликнете <a href="assets/gdpr-bg.pdf" target="_blank" rel="noopener noreferrer">тук</a>, за да видите най-актуалната версия на нашата Политика за поверителност: използването на една или повече от нашите услуги означава приеманеto на тази Политика за поверителност.',
    },
 };
 
