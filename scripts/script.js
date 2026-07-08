@@ -3,6 +3,7 @@ const translations = {
       'nav-home-btn': 'Home',
       'nav-service-btn': 'Services',
       'nav-about-btn': 'About us',
+      'nav-partners-btn': 'Partners',
       'nav-privacy-btn': 'Privacy',
 
       'hero-1': 'For the easy moments, there are many.',
@@ -64,6 +65,7 @@ const translations = {
       'footer-links-home': 'Home',
       'footer-links-services': 'Services',
       'footer-links-about': 'About us',
+      'footer-links-partners': 'Partners',
       'footer-links-privacy': 'Privacy',
 
       'footer-contact-header': 'Contact Us',
@@ -85,6 +87,16 @@ const translations = {
 
       'contact-us-header': 'Contact us',
       'about-phone': 'Phone',
+
+      'partners-header': 'Our Partners',
+      'partners-under-header': 'Companies and organizations we are proud to work with.',
+      'partner-1-name': 'Origin Coaching Travel',
+      'partner-1-p':
+         'A company that blends transformational travel with professional mental coaching. Through small-group journeys to destinations such as Egypt, Vietnam, and China, participants receive daily coaching to gain clarity on their goals and build concrete plans for personal and professional growth.',
+      'partner-2-name': 'PAcard',
+      'partner-2-p':
+         'A benefits platform dedicated to Italian public-sector employees and their families. Together with PAcard, we make our services available at reduced rates to members of the public-sector unions and associations affiliated with the network.',
+      'partner-visit': 'Visit website',
 
       'form-header': 'Contact Us',
       form1: 'Name *',
@@ -112,6 +124,7 @@ const translations = {
       'nav-home-btn': 'Home',
       'nav-service-btn': 'Servizi',
       'nav-about-btn': 'Chi siamo',
+      'nav-partners-btn': 'Partner',
       'nav-privacy-btn': 'Riservatezza',
 
       'hero-1': 'Per i momenti facili ci sono in tanti.',
@@ -174,6 +187,7 @@ const translations = {
       'footer-links-home': 'Home',
       'footer-links-services': 'Servizi',
       'footer-links-about': 'Chi siamo',
+      'footer-links-partners': 'Partner',
       'footer-links-privacy': 'Riservatezza',
 
       'footer-contact-header': 'Connettiti con noi',
@@ -195,6 +209,16 @@ const translations = {
 
       'contact-us-header': 'Connettiti con noi',
       'about-phone': 'Telefono',
+
+      'partners-header': 'I nostri partner',
+      'partners-under-header': 'Aziende e organizzazioni con cui siamo orgogliosi di collaborare.',
+      'partner-1-name': 'Origin Coaching Travel',
+      'partner-1-p':
+         'Un’azienda che unisce viaggi trasformativi al coaching mentale professionale. Attraverso viaggi in piccoli gruppi verso destinazioni come Egitto, Vietnam e Cina, i partecipanti ricevono coaching quotidiano per fare chiarezza sui propri obiettivi e costruire piani concreti di crescita personale e professionale.',
+      'partner-2-name': 'PAcard',
+      'partner-2-p':
+         'Una piattaforma di convenzioni dedicata ai dipendenti pubblici italiani e alle loro famiglie. Insieme a PAcard, mettiamo a disposizione i nostri servizi a tariffe agevolate per gli iscritti ai sindacati e alle associazioni del settore pubblico affiliati alla rete.',
+      'partner-visit': 'Visita il sito',
 
       'form-header': 'Contattaci',
       form1: 'Nome *',
@@ -221,6 +245,7 @@ const translations = {
       'nav-home-btn': 'Начало',
       'nav-service-btn': 'Услуги',
       'nav-about-btn': 'За нас',
+      'nav-partners-btn': 'Партньори',
       'nav-privacy-btn': 'Поверителност',
 
       'hero-1': 'За лесните моменти има мнозина.',
@@ -285,6 +310,7 @@ const translations = {
       'footer-links-home': 'Начало',
       'footer-links-services': 'Услуги',
       'footer-links-about': 'За нас',
+      'footer-links-partners': 'Партньори',
       'footer-links-privacy': 'Поверителност',
 
       'footer-contact-header': 'Свържете се с нас',
@@ -306,6 +332,16 @@ const translations = {
 
       'contact-us-header': 'Свържете се с нас',
       'about-phone': 'Телефон',
+
+      'partners-header': 'Нашите партньори',
+      'partners-under-header': 'Компании и организации, с които се гордеем, че работим.',
+      'partner-1-name': 'Origin Coaching Travel',
+      'partner-1-p':
+         'Компания, която съчетава трансформиращи пътувания с професионален ментален коучинг. Чрез пътувания в малки групи до дестинации като Египет, Виетнам и Китай участниците получават ежедневен коучинг, за да постигнат яснота относно целите си и да изградят конкретни планове за личностно и професионално развитие.',
+      'partner-2-name': 'PAcard',
+      'partner-2-p':
+         'Платформа за отстъпки, посветена на италианските служители в публичния сектор и техните семейства. Заедно с PAcard предлагаме услугите си при намалени цени за членовете на синдикатите и асоциациите в публичния сектор, свързани с мрежата.',
+      'partner-visit': 'Посетете сайта',
 
       'form-header': 'Свържете се с нас',
       form1: 'Име *',
@@ -568,6 +604,40 @@ function getAboutContent() {
   `;
 }
 
+function getPartnersContent() {
+   return `
+  <section id="partners-hero">
+      <div class="overlay"></div>
+      <div class="content">
+          <h2>${t('partners-header')}</h2>
+          <p>${t('partners-under-header')}</p>
+      </div>
+  </section>
+  <section id="partners-main">
+      <div class="partner-cards">
+          <div class="partner-card">
+              <div class="partner-logo">
+                  <img src="assets/origin-logo.png" alt="${t('partner-1-name')}">
+              </div>
+              <p>${t('partner-1-p')}</p>
+              <a href="https://www.origincoachingtravel.com/" target="_blank" rel="noopener noreferrer" class="partner-link">
+                  ${t('partner-visit')} <span class="material-symbols-outlined">keyboard_arrow_right</span>
+              </a>
+          </div>
+          <div class="partner-card">
+              <div class="partner-logo">
+                  <img src="assets/pacard-logo.svg" alt="${t('partner-2-name')}">
+              </div>
+              <p>${t('partner-2-p')}</p>
+              <a href="https://pacard.it/vetrina/15811-sigpetar-laskov-people-persons-needs-zelo-san-persico-lo" target="_blank" rel="noopener noreferrer" class="partner-link">
+                  ${t('partner-visit')} <span class="material-symbols-outlined">keyboard_arrow_right</span>
+              </a>
+          </div>
+      </div>
+  </section>
+  `;
+}
+
 function getPrivacyContent() {
    return `
   <section id="privacy-hero">
@@ -685,21 +755,25 @@ function updateNavigation() {
    const homeBtn = document.querySelector('#nav-home a');
    const serviceBtn = document.querySelector('#nav-service a');
    const aboutBtn = document.querySelector('#nav-about a');
+   const partnersBtn = document.querySelector('#nav-partners a');
    const privacyBtn = document.querySelector('#nav-privacy a');
 
    if (homeBtn) homeBtn.textContent = t('nav-home-btn');
    if (serviceBtn) serviceBtn.textContent = t('nav-service-btn');
    if (aboutBtn) aboutBtn.textContent = t('nav-about-btn');
+   if (partnersBtn) partnersBtn.textContent = t('nav-partners-btn');
    if (privacyBtn) privacyBtn.textContent = t('nav-privacy-btn');
 
    const homeMobileBtn = document.querySelector('#nav-home-mobile a');
    const serviceobileBtn = document.querySelector('#nav-service-mobile a');
    const aboutMobileBtn = document.querySelector('#nav-about-mobile a');
+   const partnersMobileBtn = document.querySelector('#nav-partners-mobile a');
    const privacyMobileBtn = document.querySelector('#nav-privacy-mobile a');
 
    if (homeMobileBtn) homeMobileBtn.textContent = t('nav-home-btn');
    if (serviceobileBtn) serviceobileBtn.textContent = t('nav-service-btn');
    if (aboutMobileBtn) aboutMobileBtn.textContent = t('nav-about-btn');
+   if (partnersMobileBtn) partnersMobileBtn.textContent = t('nav-partners-btn');
    if (privacyMobileBtn) privacyMobileBtn.textContent = t('nav-privacy-btn');
 
    const footerDesc = document.querySelector('.footer-desc');
@@ -715,16 +789,18 @@ function updateNavigation() {
    const footerHomeBtns = document.querySelectorAll('.home-btn');
    const footerServiceBtns = document.querySelectorAll('.service-btn');
    const footerAboutBtns = document.querySelectorAll('.about-btn');
+   const footerPartnersBtns = document.querySelectorAll('.partners-btn');
    const footerPrivacyBtns = document.querySelectorAll('.privacy-btn');
 
    footerHomeBtns.forEach((btn) => (btn.textContent = t('footer-links-home')));
    footerServiceBtns.forEach((btn) => (btn.textContent = t('footer-links-services')));
    footerAboutBtns.forEach((btn) => (btn.textContent = t('footer-links-about')));
+   footerPartnersBtns.forEach((btn) => (btn.textContent = t('footer-links-partners')));
    footerPrivacyBtns.forEach((btn) => (btn.textContent = t('footer-links-privacy')));
 }
 
 function updateActiveNavButton(activeSection) {
-   const allNavBtns = document.querySelectorAll('#nav-home, #nav-service, #nav-about, #nav-privacy');
+   const allNavBtns = document.querySelectorAll('#nav-home, #nav-service, #nav-about, #nav-partners, #nav-privacy');
    allNavBtns.forEach((btn) => btn.classList.remove('active'));
 
    let activeBtn;
@@ -737,6 +813,9 @@ function updateActiveNavButton(activeSection) {
          break;
       case 'about':
          activeBtn = document.querySelector('#nav-about');
+         break;
+      case 'partners':
+         activeBtn = document.querySelector('#nav-partners');
          break;
       case 'privacy':
          activeBtn = document.querySelector('#nav-privacy');
@@ -767,6 +846,13 @@ function showAbout() {
    window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
+function showPartners() {
+   document.getElementById('main-content').innerHTML = getPartnersContent();
+   updateNavigation();
+   updateActiveNavButton('partners');
+   window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
 function showPrivacy() {
    document.getElementById('main-content').innerHTML = getPrivacyContent();
    updateNavigation();
@@ -790,6 +876,8 @@ function changeLanguage(lang) {
       showHome();
    } else if (currentSection.querySelector('#about-hero')) {
       showAbout();
+   } else if (currentSection.querySelector('#partners-hero')) {
+      showPartners();
    } else if (currentSection.querySelector('#privacy-hero')) {
       showPrivacy();
    }
@@ -816,16 +904,19 @@ function setupNavigation() {
    const homeNavBtn = document.querySelector('#nav-home');
    const serviceNavBtn = document.querySelector('#nav-service');
    const aboutNavBtn = document.querySelector('#nav-about');
+   const partnersNavBtn = document.querySelector('#nav-partners');
    const privacyNavBtn = document.querySelector('#nav-privacy');
 
    const homeNavBtnMobile = document.querySelector('#nav-home-mobile');
    const serviceNavBtnMobile = document.querySelector('#nav-service-mobile');
    const aboutNavBtnMobile = document.querySelector('#nav-about-mobile');
+   const partnersNavBtnMobile = document.querySelector('#nav-partners-mobile');
    const privacyNavBtnMobile = document.querySelector('#nav-privacy-mobile');
 
    const footerHomeBtns = document.querySelectorAll('.home-btn');
    const footerServiceBtns = document.querySelectorAll('.service-btn');
    const footerAboutBtns = document.querySelectorAll('.about-btn');
+   const footerPartnersBtns = document.querySelectorAll('.partners-btn');
    const footerPrivacyBtns = document.querySelectorAll('.privacy-btn');
 
    const mobileDiv = document.querySelector('.mobile-div');
@@ -852,6 +943,11 @@ function setupNavigation() {
 
    aboutNavBtnMobile.addEventListener('click', () => {
       showAbout();
+      mobileDiv.classList.remove('active');
+   });
+
+   partnersNavBtnMobile.addEventListener('click', () => {
+      showPartners();
       mobileDiv.classList.remove('active');
    });
 
@@ -886,6 +982,14 @@ function setupNavigation() {
 
    footerAboutBtns.forEach((btn) => {
       btn.addEventListener('click', showAbout);
+   });
+
+   if (partnersNavBtn) {
+      partnersNavBtn.addEventListener('click', showPartners);
+   }
+
+   footerPartnersBtns.forEach((btn) => {
+      btn.addEventListener('click', showPartners);
    });
 
    const hamburgerBtn = document.getElementById('hamburger-btn');

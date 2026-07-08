@@ -629,6 +629,103 @@ footer h3 {
    font-weight: 500;
 }
 
+#partners-hero {
+   margin-top: 64px;
+   padding: 96px 32px;
+   text-align: center;
+   color: #fff;
+   background: url('../assets/teamwork.jpg') center 50% / cover no-repeat;
+   position: relative;
+}
+
+#partners-hero h2 {
+   font-size: 48px;
+   margin: 0;
+}
+
+#partners-hero p {
+   font-size: 20px;
+}
+
+#partners-hero .overlay {
+   position: absolute;
+   inset: 0;
+   background: rgba(12, 12, 37, 0.66);
+}
+
+#partners-hero .content {
+   position: relative;
+   margin: 0 auto;
+   width: 1300px;
+   text-align: center;
+   color: white;
+}
+
+#partners-main {
+   padding: 96px 0;
+   background-color: #f8fafc;
+}
+
+.partner-cards {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   width: 1000px;
+   margin: 0 auto;
+   gap: 40px;
+}
+
+.partner-card {
+   background-color: #fff;
+   padding: 32px;
+   border-radius: 8px;
+   transition: box-shadow 0.2s ease;
+   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.04), 5px 5px 10px rgba(0, 0, 0, 0.02), -5px 5px 10px rgba(0, 0, 0, 0.02);
+   display: flex;
+   flex-direction: column;
+}
+
+.partner-card:hover {
+   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.08), 5px 5px 10px rgba(0, 0, 0, 0.04), -5px 5px 10px rgba(0, 0, 0, 0.04);
+}
+
+.partner-logo {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 90px;
+   margin-bottom: 24px;
+}
+
+.partner-logo img {
+   max-height: 72px;
+   max-width: 240px;
+   width: auto;
+   object-fit: contain;
+}
+
+.partner-card p {
+   font-size: 16px;
+   font-weight: 400;
+   color: #475569;
+   line-height: 1.7;
+   flex-grow: 1;
+}
+
+.partner-link {
+   display: inline-flex;
+   align-items: center;
+   gap: 4px;
+   margin-top: 16px;
+   color: #0d9488;
+   font-size: 16px;
+   font-weight: 500;
+   transition: color 0.15s ease;
+}
+
+.partner-link:hover {
+   color: #07b6d3;
+}
+
 a {
    cursor: pointer;
 }
@@ -1007,6 +1104,23 @@ a {
       width: 90vw;
       margin: 0 auto 32px;
       font-size: 17px;
+   }
+
+   #partners-hero {
+      padding: 96px 0;
+   }
+
+   #partners-hero .content {
+      width: 90vw;
+   }
+
+   #partners-main {
+      padding: 46px 0;
+   }
+
+   .partner-cards {
+      width: 90vw;
+      grid-template-columns: 1fr;
    }
 
    #privacy-main {
