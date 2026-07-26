@@ -3,6 +3,7 @@ const translations = {
       'nav-home-btn': 'Home',
       'nav-service-btn': 'Services',
       'nav-about-btn': 'About us',
+      'nav-committee-btn': 'Scientific Committee',
       'nav-partners-btn': 'Partners',
       'nav-privacy-btn': 'Privacy',
 
@@ -65,6 +66,7 @@ const translations = {
       'footer-links-home': 'Home',
       'footer-links-services': 'Services',
       'footer-links-about': 'About us',
+      'footer-links-committee': 'Scientific Committee',
       'footer-links-partners': 'Partners',
       'footer-links-privacy': 'Privacy',
 
@@ -98,6 +100,32 @@ const translations = {
          'A benefits platform dedicated to Italian public-sector employees and their families. Together with PAcard, we make our services available at reduced rates to members of the public-sector unions and associations affiliated with the network.',
       'partner-visit': 'Visit website',
 
+      'committee-header': 'Scientific Committee',
+      'sc-name': 'Petar Laskov',
+      'sc-role': 'PL people, persons, needs, Founder',
+      'sc-profession': 'Lawyer, Entrepreneur',
+      'sc-bio-1':
+         'Born in Bulgaria in 1970, at the height of the socialist era, he witnesses firsthand the collapse of the system and the country’s complex transition to capitalism.',
+      'sc-bio-2':
+         'When he is only eleven, his father’s serious and debilitating illness forces him to take on the responsibilities of the “man of the house,” shaping his character from an early age and instilling in him a deep sense of duty, discipline, and resilience.',
+      'sc-bio-3':
+         'After graduating in law, he begins his career as a public prosecutor. He enters the profession during an exceptionally challenging period, marked by the rise of organized crime and a widespread climate of institutional uncertainty.',
+      'sc-bio-4':
+         'His work in the public sector brings him face to face with the complexities of administering justice in a country undergoing profound political, social, and economic transformation. He later moves into the private sector, where he adapts pragmatically to the new legal and business environment of post-socialist Bulgaria, while remaining firmly committed to his values of integrity, consistency, and personal responsibility.',
+      'sc-bio-5':
+         'His life story reflects the journey of a man who navigated one of the most turbulent periods in his country’s recent history with clarity, courage, and determination. Throughout his career, he has always combined responsibility, discipline, honesty, and resilience with a strong capacity to adapt and lead.',
+      'sc-bio-6':
+         'Driven by a deep sense of civic duty and an enduring commitment to society, he continues to place these principles at the heart of his professional work. By bringing Eastern and Western Europe into dialogue, he shares knowledge and experience, builds connections, and promotes the personal and professional development of others.',
+      'sc-committee-header': 'Scientific Committee',
+      'sc-committee-1':
+         'PL people, persons, needs and its founder, Petar Laskov, are supported by a Scientific Committee comprising a network of distinguished specialists who serve as advisors.',
+      'sc-committee-2':
+         'The Committee brings together strong academic credentials and more than 25 years of international experience in the human sciences. Its members’ areas of expertise span psychotherapy, clinical hypnosis, life coaching, sports coaching, HR advisory, communication sciences, employment law, and labor relations.',
+      'sc-committee-3':
+         'Each advisor contributes a distinctive body of knowledge and experience that complements the expertise of the other members, shaping a multidisciplinary, authoritative, and deeply people-centered approach. The Committee includes published authors and recognized public figures with national and international profiles.',
+      'sc-committee-4':
+         'All members share a strong sense of social responsibility and a genuine commitment to human development.',
+
       'form-header': 'Contact Us',
       form1: 'Name *',
       form1placeholder: 'Your name',
@@ -124,6 +152,7 @@ const translations = {
       'nav-home-btn': 'Home',
       'nav-service-btn': 'Servizi',
       'nav-about-btn': 'Chi siamo',
+      'nav-committee-btn': 'Comitato scientifico',
       'nav-partners-btn': 'Partner',
       'nav-privacy-btn': 'Riservatezza',
 
@@ -187,6 +216,7 @@ const translations = {
       'footer-links-home': 'Home',
       'footer-links-services': 'Servizi',
       'footer-links-about': 'Chi siamo',
+      'footer-links-committee': 'Comitato scientifico',
       'footer-links-partners': 'Partner',
       'footer-links-privacy': 'Riservatezza',
 
@@ -220,6 +250,32 @@ const translations = {
          'Una piattaforma di convenzioni dedicata ai dipendenti pubblici italiani e alle loro famiglie. Insieme a PAcard, mettiamo a disposizione i nostri servizi a tariffe agevolate per gli iscritti ai sindacati e alle associazioni del settore pubblico affiliati alla rete.',
       'partner-visit': 'Visita il sito',
 
+      'committee-header': 'Comitato scientifico',
+      'sc-name': 'Petar Laskov',
+      'sc-role': 'PL people, persons, needs, Fondatore',
+      'sc-profession': 'Avvocato, imprenditore',
+      'sc-bio-1':
+         'Nato in Bulgaria nel 1970, in piena epoca socialista, vive in prima persona il crollo di quel sistema e la complessa transizione verso il capitalismo.',
+      'sc-bio-2':
+         'Una grave e invalidante malattia del padre lo costringe ad assumere il ruolo di “uomo di casa” all’età di soli undici anni.',
+      'sc-bio-3':
+         'Subito dopo la laurea in giurisprudenza, intraprende la carriera di pubblico ministero, trovandosi ad operare in un periodo particolarmente difficile, segnato dalla nascita di gruppi criminali organizzati e da un diffuso clima di incertezza istituzionale.',
+      'sc-bio-4':
+         'Il suo lavoro nel settore pubblico lo porta a confrontarsi con le sfide della giustizia in un Paese in trasformazione, mentre successivamente matura esperienze anche nel settore privato, adattandosi con pragmatismo alle nuove dinamiche economiche e legali della Bulgaria post-socialista, riuscendo comunque a non tradire i suoi valori di integrità e coerenza.',
+      'sc-bio-5':
+         'La sua biografia riflette il percorso di un uomo che ha saputo attraversare con lucidità e coraggio una delle epoche più turbolente della storia recente del suo Paese, unendo responsabilità, disciplina, onestà e resilienza.',
+      'sc-bio-6':
+         'Animato da un forte senso civico e da un costante impegno sociale, che continuano a guidare la sua attività professionale, mette in dialogo l’Europa orientale e quella occidentale, condividendo esperienze e promuovendo lo sviluppo delle persone.',
+      'sc-committee-header': 'Comitato scientifico',
+      'sc-committee-1':
+         'Dietro PL people, persons, needs e il suo fondatore, Petar Laskov, opera un comitato scientifico composto da una rete di specialisti di altissimo profilo, coinvolti in qualità di advisor.',
+      'sc-committee-2':
+         'Il comitato riunisce solide competenze accademiche e oltre 25 anni di esperienza internazionale nel campo delle scienze umane, con specializzazioni che spaziano dalla psicoterapia all’ipnosi clinica, dal life coaching allo sports coaching, fino alla consulenza HR, alla comunicazione, al diritto del lavoro e alle relazioni sindacali.',
+      'sc-committee-3':
+         'Ogni advisor contribuisce con un patrimonio di esperienze e competenze specifiche, complementari a quelle degli altri membri, dando vita a un approccio multidisciplinare, autorevole e profondamente orientato alla persona. Tra loro figurano autori di libri e pubblicazioni nei rispettivi ambiti di competenza, nonché figure pubbliche di rilievo nazionale e internazionale.',
+      'sc-committee-4':
+         'Ad accomunare tutti i componenti del comitato sono una forte sensibilità sociale e un’autentica passione per lo sviluppo umano.',
+
       'form-header': 'Contattaci',
       form1: 'Nome *',
       form1placeholder: 'Il tuo nome',
@@ -245,6 +301,7 @@ const translations = {
       'nav-home-btn': 'Начало',
       'nav-service-btn': 'Услуги',
       'nav-about-btn': 'За нас',
+      'nav-committee-btn': 'Научен комитет',
       'nav-partners-btn': 'Партньори',
       'nav-privacy-btn': 'Поверителност',
 
@@ -310,6 +367,7 @@ const translations = {
       'footer-links-home': 'Начало',
       'footer-links-services': 'Услуги',
       'footer-links-about': 'За нас',
+      'footer-links-committee': 'Научен комитет',
       'footer-links-partners': 'Партньори',
       'footer-links-privacy': 'Поверителност',
 
@@ -342,6 +400,32 @@ const translations = {
       'partner-2-p':
          'Платформа за отстъпки, посветена на италианските служители в публичния сектор и техните семейства. Заедно с PAcard предлагаме услугите си при намалени цени за членовете на синдикатите и асоциациите в публичния сектор, свързани с мрежата.',
       'partner-visit': 'Посетете сайта',
+
+      'committee-header': 'Научен комитет',
+      'sc-name': 'Петър Ласков',
+      'sc-role': 'PL people, persons, needs, основател',
+      'sc-profession': 'Адвокат, предприемач',
+      'sc-bio-1':
+         'Роден в България през 1970 г., в разгара на социалистическата епоха, той става пряк свидетел на разпадането на системата и на сложния преход на страната към пазарна икономика.',
+      'sc-bio-2':
+         'Когато е едва на единадесет години, тежкото и продължително заболяване на баща му го принуждава преждевременно да поеме отговорностите на „мъжа в семейството“. Това изпитание изгражда у него още от ранна възраст силно чувство за дълг, дисциплина и устойчивост.',
+      'sc-bio-3':
+         'След завършване на юридическото си образование започва професионалния си път като помощник-следовател. Работи в изключително труден период, белязан от възхода на организираната престъпност и от широко разпространена институционална несигурност.',
+      'sc-bio-4':
+         'Дейността му в публичния сектор го изправя пред сложните предизвикателства на правосъдието в държава, преминаваща през дълбока политическа, обществена и икономическа трансформация. По-късно натрупва значителен опит и в частния сектор, като се адаптира прагматично към новите икономически и правни реалности на постсоциалистическа България, без да прави компромис със своите принципи на почтеност, последователност и лична отговорност.',
+      'sc-bio-5':
+         'Неговата биография проследява пътя на човек, преминал през една от най-бурните епохи в съвременната история на страната си с яснота, смелост и решителност. В професионалния и личния си път той съчетава отговорност, дисциплина, честност, устойчивост и способност да се адаптира и да води.',
+      'sc-bio-6':
+         'Воден от силно гражданско съзнание и трайна обществена ангажираност, той продължава да поставя тези ценности в основата на своята професионална дейност. Като насърчава диалога между Източна и Западна Европа, той споделя знания и опит, изгражда връзки и допринася за личностното и професионалното развитие на хората.',
+      'sc-committee-header': 'Научен комитет',
+      'sc-committee-1':
+         'Зад PL people, persons, needs и нейния основател Петър Ласков стои Научен комитет, обединяващ мрежа от утвърдени специалисти от най-високо ниво, които изпълняват ролята на стратегически съветници.',
+      'sc-committee-2':
+         'Комитетът съчетава задълбочена академична експертиза и над 25 години международен опит в областта на науките за човека. Професионалните компетенции на неговите членове обхващат психотерапия, клинична хипноза, коучинг за личностно развитие, спортен коучинг, консултиране в областта на човешките ресурси, комуникации, трудово право и индустриални отношения.',
+      'sc-committee-3':
+         'Всеки съветник допринася със специфични знания и богат професионален опит, които допълват компетенциите на останалите членове и изграждат мултидисциплинарен, авторитетен и дълбоко ориентиран към човека подход. Сред членовете на Комитета има автори на книги и професионални публикации, както и утвърдени обществени фигури с национално и международно признание.',
+      'sc-committee-4':
+         'Всички членове на Комитета са обединени от силна социална ангажираност и искрена отдаденост на човешкото развитие.',
 
       'form-header': 'Свържете се с нас',
       form1: 'Име *',
@@ -638,6 +722,44 @@ function getPartnersContent() {
   `;
 }
 
+function getScientificCommitteeContent() {
+   return `
+  <section id="committee-hero">
+      <div class="overlay"></div>
+      <div class="content">
+          <h2>${t('committee-header')}</h2>
+      </div>
+  </section>
+  <section id="founder">
+      <div class="founder-inner">
+          <img class="founder-photo" src="assets/petar-laskov.jpg" alt="${t('sc-name')}">
+          <div class="founder-heading">
+              <h3>${t('sc-name')}</h3>
+              <p class="founder-role">${t('sc-role')}</p>
+              <p class="founder-profession">${t('sc-profession')}</p>
+          </div>
+          <div class="founder-text">
+              <p>${t('sc-bio-1')}</p>
+              <p>${t('sc-bio-2')}</p>
+              <p>${t('sc-bio-3')}</p>
+              <p>${t('sc-bio-4')}</p>
+              <p>${t('sc-bio-5')}</p>
+              <p>${t('sc-bio-6')}</p>
+          </div>
+      </div>
+  </section>
+  <section id="committee-main">
+      <div class="committee-inner">
+          <h3>${t('sc-committee-header')}</h3>
+          <p>${t('sc-committee-1')}</p>
+          <p>${t('sc-committee-2')}</p>
+          <p>${t('sc-committee-3')}</p>
+          <p>${t('sc-committee-4')}</p>
+      </div>
+  </section>
+  `;
+}
+
 function getPrivacyContent() {
    return `
   <section id="privacy-hero">
@@ -755,24 +877,28 @@ function updateNavigation() {
    const homeBtn = document.querySelector('#nav-home a');
    const serviceBtn = document.querySelector('#nav-service a');
    const aboutBtn = document.querySelector('#nav-about a');
+   const committeeBtn = document.querySelector('#nav-committee a');
    const partnersBtn = document.querySelector('#nav-partners a');
    const privacyBtn = document.querySelector('#nav-privacy a');
 
    if (homeBtn) homeBtn.textContent = t('nav-home-btn');
    if (serviceBtn) serviceBtn.textContent = t('nav-service-btn');
    if (aboutBtn) aboutBtn.textContent = t('nav-about-btn');
+   if (committeeBtn) committeeBtn.textContent = t('nav-committee-btn');
    if (partnersBtn) partnersBtn.textContent = t('nav-partners-btn');
    if (privacyBtn) privacyBtn.textContent = t('nav-privacy-btn');
 
    const homeMobileBtn = document.querySelector('#nav-home-mobile a');
    const serviceobileBtn = document.querySelector('#nav-service-mobile a');
    const aboutMobileBtn = document.querySelector('#nav-about-mobile a');
+   const committeeMobileBtn = document.querySelector('#nav-committee-mobile a');
    const partnersMobileBtn = document.querySelector('#nav-partners-mobile a');
    const privacyMobileBtn = document.querySelector('#nav-privacy-mobile a');
 
    if (homeMobileBtn) homeMobileBtn.textContent = t('nav-home-btn');
    if (serviceobileBtn) serviceobileBtn.textContent = t('nav-service-btn');
    if (aboutMobileBtn) aboutMobileBtn.textContent = t('nav-about-btn');
+   if (committeeMobileBtn) committeeMobileBtn.textContent = t('nav-committee-btn');
    if (partnersMobileBtn) partnersMobileBtn.textContent = t('nav-partners-btn');
    if (privacyMobileBtn) privacyMobileBtn.textContent = t('nav-privacy-btn');
 
@@ -789,18 +915,20 @@ function updateNavigation() {
    const footerHomeBtns = document.querySelectorAll('.home-btn');
    const footerServiceBtns = document.querySelectorAll('.service-btn');
    const footerAboutBtns = document.querySelectorAll('.about-btn');
+   const footerCommitteeBtns = document.querySelectorAll('.committee-btn');
    const footerPartnersBtns = document.querySelectorAll('.partners-btn');
    const footerPrivacyBtns = document.querySelectorAll('.privacy-btn');
 
    footerHomeBtns.forEach((btn) => (btn.textContent = t('footer-links-home')));
    footerServiceBtns.forEach((btn) => (btn.textContent = t('footer-links-services')));
    footerAboutBtns.forEach((btn) => (btn.textContent = t('footer-links-about')));
+   footerCommitteeBtns.forEach((btn) => (btn.textContent = t('footer-links-committee')));
    footerPartnersBtns.forEach((btn) => (btn.textContent = t('footer-links-partners')));
    footerPrivacyBtns.forEach((btn) => (btn.textContent = t('footer-links-privacy')));
 }
 
 function updateActiveNavButton(activeSection) {
-   const allNavBtns = document.querySelectorAll('#nav-home, #nav-service, #nav-about, #nav-partners, #nav-privacy');
+   const allNavBtns = document.querySelectorAll('#nav-home, #nav-service, #nav-about, #nav-committee, #nav-partners, #nav-privacy');
    allNavBtns.forEach((btn) => btn.classList.remove('active'));
 
    let activeBtn;
@@ -813,6 +941,9 @@ function updateActiveNavButton(activeSection) {
          break;
       case 'about':
          activeBtn = document.querySelector('#nav-about');
+         break;
+      case 'committee':
+         activeBtn = document.querySelector('#nav-committee');
          break;
       case 'partners':
          activeBtn = document.querySelector('#nav-partners');
@@ -853,6 +984,13 @@ function showPartners() {
    window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
+function showScientificCommittee() {
+   document.getElementById('main-content').innerHTML = getScientificCommitteeContent();
+   updateNavigation();
+   updateActiveNavButton('committee');
+   window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
 function showPrivacy() {
    document.getElementById('main-content').innerHTML = getPrivacyContent();
    updateNavigation();
@@ -876,6 +1014,8 @@ function changeLanguage(lang) {
       showHome();
    } else if (currentSection.querySelector('#about-hero')) {
       showAbout();
+   } else if (currentSection.querySelector('#committee-hero')) {
+      showScientificCommittee();
    } else if (currentSection.querySelector('#partners-hero')) {
       showPartners();
    } else if (currentSection.querySelector('#privacy-hero')) {
@@ -904,18 +1044,21 @@ function setupNavigation() {
    const homeNavBtn = document.querySelector('#nav-home');
    const serviceNavBtn = document.querySelector('#nav-service');
    const aboutNavBtn = document.querySelector('#nav-about');
+   const committeeNavBtn = document.querySelector('#nav-committee');
    const partnersNavBtn = document.querySelector('#nav-partners');
    const privacyNavBtn = document.querySelector('#nav-privacy');
 
    const homeNavBtnMobile = document.querySelector('#nav-home-mobile');
    const serviceNavBtnMobile = document.querySelector('#nav-service-mobile');
    const aboutNavBtnMobile = document.querySelector('#nav-about-mobile');
+   const committeeNavBtnMobile = document.querySelector('#nav-committee-mobile');
    const partnersNavBtnMobile = document.querySelector('#nav-partners-mobile');
    const privacyNavBtnMobile = document.querySelector('#nav-privacy-mobile');
 
    const footerHomeBtns = document.querySelectorAll('.home-btn');
    const footerServiceBtns = document.querySelectorAll('.service-btn');
    const footerAboutBtns = document.querySelectorAll('.about-btn');
+   const footerCommitteeBtns = document.querySelectorAll('.committee-btn');
    const footerPartnersBtns = document.querySelectorAll('.partners-btn');
    const footerPrivacyBtns = document.querySelectorAll('.privacy-btn');
 
@@ -943,6 +1086,11 @@ function setupNavigation() {
 
    aboutNavBtnMobile.addEventListener('click', () => {
       showAbout();
+      mobileDiv.classList.remove('active');
+   });
+
+   committeeNavBtnMobile.addEventListener('click', () => {
+      showScientificCommittee();
       mobileDiv.classList.remove('active');
    });
 
@@ -982,6 +1130,14 @@ function setupNavigation() {
 
    footerAboutBtns.forEach((btn) => {
       btn.addEventListener('click', showAbout);
+   });
+
+   if (committeeNavBtn) {
+      committeeNavBtn.addEventListener('click', showScientificCommittee);
+   }
+
+   footerCommitteeBtns.forEach((btn) => {
+      btn.addEventListener('click', showScientificCommittee);
    });
 
    if (partnersNavBtn) {

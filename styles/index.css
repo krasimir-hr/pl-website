@@ -726,6 +726,106 @@ footer h3 {
    color: #07b6d3;
 }
 
+#committee-hero {
+   margin-top: 64px;
+   padding: 96px 32px;
+   text-align: center;
+   color: #fff;
+   background: url('../assets/committee-hero.jpg') center 55% / cover no-repeat;
+   position: relative;
+}
+
+#committee-hero .overlay {
+   position: absolute;
+   inset: 0;
+   background: rgba(12, 12, 37, 0.66);
+}
+
+#committee-hero .content {
+   position: relative;
+   margin: 0 auto;
+   width: 1300px;
+   text-align: center;
+   color: white;
+}
+
+#committee-hero h2 {
+   font-size: 48px;
+   margin: 0;
+}
+
+#founder {
+   padding: 96px 0;
+}
+
+.founder-inner {
+   width: 900px;
+   margin: 0 auto;
+}
+
+.founder-photo {
+   width: 100%;
+   max-height: 460px;
+   object-fit: cover;
+   object-position: center 30%;
+   border-radius: 8px;
+   display: block;
+}
+
+.founder-heading {
+   margin: 32px 0 24px;
+}
+
+.founder-heading h3 {
+   font-size: 32px;
+   color: #1e293b;
+   margin: 0 0 8px;
+}
+
+.founder-role {
+   font-size: 18px;
+   color: #0d9488;
+   font-weight: 500;
+   margin: 0 0 4px;
+}
+
+.founder-profession {
+   font-size: 16px;
+   color: #475569;
+   font-weight: 500;
+   margin: 0;
+}
+
+.founder-text p {
+   font-size: 17px;
+   line-height: 1.8;
+   color: #334155;
+   margin-bottom: 20px;
+}
+
+#committee-main {
+   background-color: #f8fafc;
+   padding: 96px 0;
+}
+
+.committee-inner {
+   width: 900px;
+   margin: 0 auto;
+}
+
+.committee-inner h3 {
+   font-size: 30px;
+   color: #1e293b;
+   margin: 0 0 24px;
+}
+
+.committee-inner p {
+   font-size: 17px;
+   line-height: 1.8;
+   color: #334155;
+   margin-bottom: 20px;
+}
+
 a {
    cursor: pointer;
 }
@@ -1134,6 +1234,56 @@ a {
 
    #privacy-main h2 {
       font-size: 30px;
+   }
+
+   #committee-hero {
+      padding: 96px 0;
+   }
+
+   #committee-hero .content {
+      width: 90vw;
+   }
+
+   #committee-hero h2 {
+      font-size: 32px;
+   }
+
+   #founder {
+      padding: 48px 0;
+   }
+
+   .founder-inner {
+      width: 90vw;
+   }
+
+   .founder-photo {
+      height: 320px;
+      max-height: none;
+      object-position: 60% 30%;
+   }
+
+   .founder-heading h3 {
+      font-size: 26px;
+   }
+
+   .founder-text p {
+      font-size: 16px;
+   }
+
+   #committee-main {
+      padding: 48px 0;
+   }
+
+   .committee-inner {
+      width: 90vw;
+   }
+
+   .committee-inner h3 {
+      font-size: 24px;
+   }
+
+   .committee-inner p {
+      font-size: 16px;
    }
 
 }
