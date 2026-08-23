@@ -120,7 +120,7 @@ const translations = {
       'sc-committee-1':
          'PL people, persons, needs and its founder, Petar Laskov, are supported by a Scientific Committee comprising a network of distinguished specialists who serve as advisors.',
       'sc-committee-2':
-         'The Committee brings together strong academic credentials and more than 25 years of international experience in the human sciences. Its members’ areas of expertise span psychotherapy, clinical hypnosis, life coaching, sports coaching, HR advisory, communication sciences, employment law, and labor relations.',
+         'The Committee brings together strong academic credentials and more than 25 years of international experience in the human sciences. Its members’ areas of expertise span psychotherapy, clinical hypnosis, mental coaching, sports coaching, HR advisory, communication sciences, employment law, and labor relations.',
       'sc-committee-3':
          'Each advisor contributes a distinctive body of knowledge and experience that complements the expertise of the other members, shaping a multidisciplinary, authoritative, and deeply people-centered approach. The Committee includes published authors and recognized public figures with national and international profiles.',
       'sc-committee-4':
@@ -270,7 +270,7 @@ const translations = {
       'sc-committee-1':
          'Dietro PL people, persons, needs e il suo fondatore, Petar Laskov, opera un comitato scientifico composto da una rete di specialisti di altissimo profilo, coinvolti in qualità di advisor.',
       'sc-committee-2':
-         'Il comitato riunisce solide competenze accademiche e oltre 25 anni di esperienza internazionale nel campo delle scienze umane, con specializzazioni che spaziano dalla psicoterapia all’ipnosi clinica, dal life coaching allo sports coaching, fino alla consulenza HR, alla comunicazione, al diritto del lavoro e alle relazioni sindacali.',
+         'Il comitato riunisce solide competenze accademiche e oltre 25 anni di esperienza internazionale nel campo delle scienze umane, con specializzazioni che spaziano dalla psicoterapia all’ipnosi clinica, dal mental coaching allo sports coaching, fino alla consulenza HR, alla comunicazione, al diritto del lavoro e alle relazioni sindacali.',
       'sc-committee-3':
          'Ogni advisor contribuisce con un patrimonio di esperienze e competenze specifiche, complementari a quelle degli altri membri, dando vita a un approccio multidisciplinare, autorevole e profondamente orientato alla persona. Tra loro figurano autori di libri e pubblicazioni nei rispettivi ambiti di competenza, nonché figure pubbliche di rilievo nazionale e internazionale.',
       'sc-committee-4':
@@ -421,7 +421,7 @@ const translations = {
       'sc-committee-1':
          'Зад PL people, persons, needs и нейния основател Петър Ласков стои Научен комитет, обединяващ мрежа от утвърдени специалисти от най-високо ниво, които изпълняват ролята на стратегически съветници.',
       'sc-committee-2':
-         'Комитетът съчетава задълбочена академична експертиза и над 25 години международен опит в областта на науките за човека. Професионалните компетенции на неговите членове обхващат психотерапия, клинична хипноза, коучинг за личностно развитие, спортен коучинг, консултиране в областта на човешките ресурси, комуникации, трудово право и индустриални отношения.',
+         'Комитетът съчетава задълбочена академична експертиза и над 25 години международен опит в областта на науките за човека. Професионалните компетенции на неговите членове обхващат психотерапия, клинична хипноза, ментален коучинг, спортен коучинг, консултиране в областта на човешките ресурси, комуникации, трудово право и индустриални отношения.',
       'sc-committee-3':
          'Всеки съветник допринася със специфични знания и богат професионален опит, които допълват компетенциите на останалите членове и изграждат мултидисциплинарен, авторитетен и дълбоко ориентиран към човека подход. Сред членовете на Комитета има автори на книги и професионални публикации, както и утвърдени обществени фигури с национално и международно признание.',
       'sc-committee-4':
@@ -448,6 +448,176 @@ const translations = {
       privacyText:
          'Вашата поверителност е важна за нас. Затова, моля, кликнете <a href="assets/gdpr-bg.pdf" target="_blank" rel="noopener noreferrer">тук</a>, за да видите най-актуалната версия на нашата Политика за поверителност: използването на една или повече от нашите услуги означава приеманеto на тази Политика за поверителност.',
    },
+};
+
+const committeeMembers = {
+   en: [
+      {
+         name: 'Ivo Velichkov',
+         title: 'Psychotherapist',
+         image: 'assets/ivo-velichkov.jpeg',
+         paragraphs: [
+            'Among the most authoritative international psychotherapists, with over twenty-five years of clinical experience, he is the Co-Founder and President of the Bulgarian Association for Hypnosis (BAH) and an Honorary Member of the European Association of Applied Psychology (EAAP).',
+            'He studied philosophy at Sofia University “St. Kliment Ohridski”, psychology at the New Bulgarian University, and clinical hypnosis at the London College of Clinical Hypnosis. His long-standing interest in martial arts, trance, meditative practices, and various self-improvement systems has led him to train himself in numerous schools around the world: from esoteric societies in the Far East to Western universities, and even Russian special forces units.',
+            'He teaches clinical hypnosis to psychologists, dentists, and physicians, and conducts seminars on trance states, breathing techniques, effective communication, the use of our psychophysical potential, personal development, and more.',
+            'His approach aims to unlock the often-hidden knowledge, abilities, and natural mechanisms within each of us. He maintains a critical stance toward the popular use of hypnosis, clearly distinguishing between unrealistic expectations and evidence-based clinical applications. Author of “Hypnosis: Essence and Techniques”, published several times in Bulgaria and abroad, as well as of the short-story collection “Wolf Wine”.',
+            'For him, at its core, psychotherapy is simply competent humanity. This is the principle that guides all the activities of PL People, persons, needs, where he has the role of advisor and member of the Scientific Committee.',
+         ],
+         links: [{ label: 'Further information', url: 'https://satrius.com/en/' }],
+      },
+      {
+         name: 'Laura Scaglione',
+         title: 'Professional Mental Coach, corporate consultant in People Development, Organizations and Processes',
+         subtitle: 'Co-Founder of Origin Coaching Travel',
+         image: 'assets/laura-scaglione.png',
+         paragraphs: [
+            'Graduated in Economics from Bocconi University, she worked for ten years in strategic consulting, also dealing with training and mentoring at the European level. She later moved to London, where she served as HR Regional Director, integrating organizational expertise and soft skills in international contexts. During this period, she completed a Master’s in Coaching with NLP with John Grinder, becoming a Certified Professional Coach, and deepened her knowledge of conversational hypnosis based on Milton Erickson’s model.',
+            'Since 2013 she has worked as an independent professional, using coaching as a practical tool to facilitate personal and professional change. Over the years, she has collaborated with universities, companies of all sizes - including start-ups - and hundreds of professionals, men and women, helping them understand the mechanisms of the mind, strengthen their personal value, and build a more conscious and authentic life. She is also the author of the book “Ora sono io – Scegli il coaching per la tua crescita personale e per trovare te stesso”.',
+            'Co-Founder of Origin Coaching Travel – “The Journey Creates the Context. The Coach transforms the experience into action.”',
+            '“Experiencing change is part of my life, every day. All my work - as a coach, trainer and consultant - is dedicated to those who want to evolve in a real way and in a short time. Freedom is my driving force, and it is also the resource I offer to those who choose to work with me.”',
+            'Advisor and member of the Scientific Committee of PL People, persons, needs, she brings to the project a person-centered vision, a practical approach to change, and a deep focus on freedom as a driving force for evolution.',
+         ],
+         links: [
+            { label: 'Further information: Advanced Awareness', url: 'https://www.advancedawareness.it/' },
+            { label: 'Further information: Origin Coaching Travel', url: 'https://www.origincoachingtravel.com/' },
+         ],
+      },
+      {
+         name: 'Paolo Cavallone',
+         title: 'Radio host, theatre actor and television presenter',
+         image: 'assets/paolo-cavallone.jpeg',
+         sections: [
+            {
+               paragraphs: [
+                  'One of the most recognizable voices in the Italian media landscape, he made his debut in the 1980s on the local station Radio Mondo under the pseudonym DJ Vito, later joining Radio 105, then Radio 101 / R101, before becoming part of RTL 102.5.',
+               ],
+            },
+            {
+               heading: 'Radio career',
+               paragraphs: [
+                  'In the 1990s he hosted the program “I due del tredicesimo” on Radio 105, together with Tony Severo and Sergio Sironi. From 1999 to 2013 he worked at Radio 101 (later R101), where he led the popular morning show “La Carica di 101”. In January 2014 he joined RTL 102.5, hosting programs such as “Miseria e nobiltà”, “La famiglia giù al nord”, “Hello Weekend”, and “No problem – W l’Italia”.',
+               ],
+            },
+            {
+               heading: 'Television, theatre and other projects',
+               paragraphs: [
+                  'He has collaborated with Italia 1 and Odeon TV, and has performed in several theatre productions, including the comic character DJ Giostra, widely appreciated by audiences.',
+                  'Advisor and member of the Scientific Committee of PL People, persons, needs, he brings to the project his communication expertise, his ability to create authentic human connection, and a deep sensitivity towards people.',
+               ],
+            },
+         ],
+         links: [{ label: 'One of his contributions that made history in Italian radio', url: 'https://www.youtube.com/watch?v=LIvCFaxvfto' }],
+      },
+   ],
+   it: [
+      {
+         name: 'Ivo Velichkov',
+         title: 'Psicoterapeuta',
+         image: 'assets/ivo-velichkov.jpeg',
+         paragraphs: [
+            'Tra i più autorevoli psicoterapeuti a livello internazionale, con oltre venticinque anni di esperienza clinica, è Co‑fondatore e Presidente della Bulgarian Association for Hypnosis (BAH) e membro onorario della European Association of Applied Psychology (EAAP).',
+            'Ha studiato filosofia presso la Sofia University “St. Kliment Ohridski”, psicologia presso la New Bulgarian University e ipnosi clinica presso il London College of Clinical Hypnosis.',
+            'Il suo interesse di lunga data per le arti marziali, la trance, le pratiche meditative e i sistemi di auto‑miglioramento lo ha portato a formarsi in numerose scuole nel mondo: dalle società esoteriche dell’Estremo Oriente alle università occidentali, fino alle unità delle forze speciali russe.',
+            'Insegna ipnosi clinica a psicologi, dentisti e medici, e conduce seminari sugli stati di trance, tecniche di respirazione, comunicazione efficace, utilizzo del potenziale psicofisico e sviluppo personale.',
+            'Il suo approccio mira a liberare conoscenze, abilità e meccanismi naturali spesso inespressi, presenti in ognuno di noi. Mantiene una posizione critica verso l’uso popolare dell’ipnosi, distinguendo con rigore tra aspettative irrealistiche e applicazioni cliniche fondate. Autore di “L’ipnosi: essenza e tecniche”, più volte pubblicato in Bulgaria e all’estero, nonché del volume di racconti “Vino per lupi”.',
+            'Per lui la psicoterapia, nella sua essenza, è semplicemente umanità competente. È questo il principio che guida tutte le attività di PL People, persons, needs, dove lui svolge il ruolo di advisor e membro del Comitato Scientifico.',
+         ],
+         links: [{ label: 'Ulteriori informazioni', url: 'https://satrius.com/en/' }],
+      },
+      {
+         name: 'Laura Scaglione',
+         title: 'Mental Coach professionista, consulente aziendale in People Development, Organizzazioni e Processi',
+         subtitle: 'Co-Founder di Origin Coaching Travel',
+         image: 'assets/laura-scaglione.png',
+         paragraphs: [
+            'Laureata in Economia all’Università Bocconi, ha lavorato per dieci anni nella consulenza strategica, occupandosi anche di formazione e mentoring a livello europeo. In seguito, si è trasferita a Londra, dove ha ricoperto il ruolo di HR Regional Director, integrando competenze organizzative e soft skills. Durante questo periodo ha intrapreso un Master in Coaching con PNL con John Grinder, certificandosi come Coach Professionista, e ha approfondito l’ipnosi conversazionale secondo il modello di Milton Erickson.',
+            'Dal 2013 lavora come libera professionista, utilizzando il coaching come strumento pratico per facilitare cambiamenti personali e professionali. Negli anni ha collaborato con università, aziende di ogni dimensione, start up comprese, e centinaia di professionisti, uomini e donne, aiutandoli a comprendere i meccanismi della mente, rafforzare il proprio valore e costruire una vita più consapevole e autentica. È autrice del libro “Ora sono io – Scegli il coaching per la tua crescita personale e per trovare te stesso”.',
+            'Co-Founder del progetto Origin Coaching Travel – “Il Viaggio Crea il Contesto. Il Coach trasforma l\'esperienza in azione”.',
+            '“Sperimentare il cambiamento è parte della mia vita, ogni giorno. Tutto il mio lavoro, come coach, formatrice e consulente, è rivolto a chi vuole evolvere in modo reale e in tempi brevi. La libertà è il mio motore ed è anche la risorsa che offro a chi sceglie di lavorare con me.”',
+            'Advisor e membro del Comitato Scientifico di PL People, persons, needs, porta nel progetto una visione centrata sulla persona, un approccio pratico al cambiamento e una profonda attenzione alla libertà individuale come motore di evoluzione.',
+         ],
+         links: [
+            { label: 'Ulteriori informazioni: Advanced Awareness', url: 'https://www.advancedawareness.it/' },
+            { label: 'Ulteriori informazioni: Origin Coaching Travel', url: 'https://www.origincoachingtravel.com/' },
+         ],
+      },
+      {
+         name: 'Paolo Cavallone',
+         title: 'Conduttore radiofonico, attore teatrale e presentatore televisivo',
+         image: 'assets/paolo-cavallone.jpeg',
+         sections: [
+            { paragraphs: ['Una delle voci più riconoscibili del panorama italiano, debutta negli anni ’80 nell’emittente locale Radio Mondo con lo pseudonimo DJ Vito, per poi approdare a Radio 105, quindi a Radio 101 / R101, prima di entrare a RTL 102.5.'] },
+            {
+               heading: 'Carriera radiofonica',
+               paragraphs: [
+                  'Negli anni ’90 conduce a Radio 105 il programma “I due del tredicesimo” insieme a Tony Severo e Sergio Sironi.',
+                  'Dal 1999 al 2013 è a Radio 101 (poi R101), dove guida il celebre morning show “La Carica di 101”.',
+                  'Nel gennaio 2014 entra a RTL 102.5, dove conduce programmi come “Miseria e nobiltà”, “La famiglia giù al nord”, “Hello Weekend” e “No problem – W l’Italia”.',
+               ],
+            },
+            {
+               heading: 'Televisione, teatro e altri progetti',
+               paragraphs: [
+                  'Ha collaborato con Italia 1 e Odeon TV, e ha portato in scena diversi spettacoli teatrali, interpretando anche il personaggio comico DJ Giostra, molto amato dal pubblico.',
+                  'Advisor e membro del Comitato Scientifico di PL People, persons, needs, porta nel progetto la sua esperienza comunicativa, la capacità di creare connessione autentica e una profonda sensibilità verso le persone.',
+               ],
+            },
+         ],
+         links: [{ label: 'Una delle sue partecipazioni che ha fatto storia della radio italiana', url: 'https://www.youtube.com/watch?v=LIvCFaxvfto' }],
+      },
+   ],
+   bg: [
+      {
+         name: 'Иво Величков',
+         title: 'Психотерапевт',
+         image: 'assets/ivo-velichkov.jpeg',
+         paragraphs: [
+            'Сред най-авторитетните психотерапевти на международно ниво, с над двадесет и пет години клиничен опит, той е съосновател и Президент на Българската асоциация по хипноза (БAX) и почетен член на Европейската асоциация по приложна психология (EAAP).',
+            'Завършил е философия в Софийския университет, психология в Нов български университет и клинична хипноза в London College of Clinical Hypnosis. Дългогодишният му интерес към бойните изкуства, транса, медитативните практики и различни системи за самоусъвършенстване го отвежда в множество школи по света – от езотерични общества в Далечния изток до западни университети и дори звена на руските специални части.',
+            'Преподава клинична хипноза на психолози, стоматолози и лекари, както и води семинари за широка публика, посветени на състояния на транс, дихателни техники, ефективна комуникация, използване на психофизическия потенциал, личностно развитие и други.',
+            'Неговият подход цели да отключи често неосъзнати знания, способности и естествени механизми, заложени във всеки човек. Поддържа критична позиция към популярната употреба на хипноза, като ясно разграничава нереалистичните очаквания от клинично обоснованите приложения. Автор на „Хипнозата: същност и техники“, многократно публикувана в България и в чужбина, както и на сборника с разкази „Вълче вино“.',
+            'За него психотерапията в същността си е просто компетентна човещина. Това е принципът, който ръководи всички дейности на PL People, persons, needs, където той изпълнява ролята на съветник и член на Научния комитет.',
+         ],
+         links: [{ label: 'За повече информация', url: 'https://satrius.com/' }],
+      },
+      {
+         name: 'Laura Scaglione',
+         title: 'Професионален ментален коуч, корпоративен консултант в People Development, организации и процеси',
+         subtitle: 'Съосновател на Origin Coaching Travel',
+         image: 'assets/laura-scaglione.png',
+         paragraphs: [
+            'Завършила икономика в Bocconi University, тя работи десет години в стратегическото консултиране, като се занимава и с обучение и менторство на европейско ниво. По‑късно се премества в Лондон, където заема позицията HR Regional Director, комбинирайки организационни компетенции и умения за работа с хора в международна среда. През този период завършва магистърска програма по коучинг с НЛП с John Grinder, сертифицира се като професионален коуч и задълбочава познанията си по разговорна хипноза по модела на Milton Erickson.',
+            'От 2013 г. работи като независим професионалист, използвайки коучинга като практичен инструмент за улесняване на личната и професионалната промяна. През годините си е сътрудничила с университети, компании от всякакъв мащаб – включително стартъпи – и стотици професионалисти, мъже и жени, помагайки им да разберат механизмите на ума, да укрепят собствената си стойност и да изградят по‑осъзнат и автентичен живот. Тя е и автор на книгата „Ora sono io – Scegli il coaching per la tua crescita personale e per trovare te stesso“.',
+            'Съосновател на Origin Coaching Travel – „Пътуването създава контекста. Коучът превръща преживяването в действие.“',
+            '„Да преживявам промяната е част от живота ми, всеки ден. Цялата ми работа – като коуч, обучител и консултант – е насочена към хората, които искат да се развиват реално и в кратки срокове. Свободата е моят двигател и тя е ресурсът, който давам на всеки, който избере да работи с мен.“',
+            'Като съветник и член на Научния комитет на PL People, persons, needs, тя внася в проекта визия, фокусирана върху човека, практичен подход към промяната и дълбоко внимание към свободата като двигател на развитието.',
+         ],
+         links: [
+            { label: 'За повече информация: Advanced Awareness', url: 'https://www.advancedawareness.it/en/' },
+            { label: 'За повече информация: Origin Coaching Travel', url: 'https://www.origincoachingtravel.com/' },
+         ],
+      },
+      {
+         name: 'Paolo Cavallone',
+         title: 'Радиоводещ, театрален актьор и телевизионен водещ',
+         image: 'assets/paolo-cavallone.jpeg',
+         sections: [
+            { paragraphs: ['Един от най-разпознаваемите гласове в италианския медиен пейзаж, дебютира през 80-те години в местната радиостанция Radio Mondo под псевдонима DJ Vito, след което продължава в Radio 105, Radio 101 / R101, а по-късно става част от RTL 102.5.'] },
+            {
+               heading: 'Радиокариера',
+               paragraphs: ['През 90-те години води предаването „I due del tredicesimo“ по Radio 105 заедно с Tony Severo и Sergio Sironi. От 1999 до 2013 г. работи в Radio 101 (по-късно R101), където ръководи популярното сутрешно шоу „La Carica di 101“. През януари 2014 г. се присъединява към RTL 102.5, където води предавания като „Miseria e nobiltà“, „La famiglia giù al nord“, „Hello Weekend“ и „No problem – W l’Italia“.'],
+            },
+            {
+               heading: 'Телевизия, театър и други проекти',
+               paragraphs: [
+                  'Работил е с Italia 1 и Odeon TV, както и е участвал в множество театрални постановки, включително с комичния персонаж DJ Giostra, обичан от широката публика.',
+                  'Като съветник и член на Научния комитет на PL People, persons, needs, той внася в проекта своя комуникационен опит, умението да създава автентична връзка с хората и дълбока чувствителност към човешките истории.',
+               ],
+            },
+         ],
+         links: [{ label: 'Едно от неговите участия, които оставят следа в историята на италианското радио', url: 'https://www.youtube.com/watch?v=LIvCFaxvfto' }],
+      },
+   ],
 };
 
 let currentLanguage = 'en';
@@ -722,7 +892,45 @@ function getPartnersContent() {
   `;
 }
 
+function renderCommitteeMember(member) {
+   const sections = member.sections || [{ paragraphs: member.paragraphs }];
+   const body = sections
+      .map(
+         (section) => `
+            ${section.heading ? `<h4>${section.heading}</h4>` : ''}
+            ${section.paragraphs.map((paragraph) => `<p>${paragraph}</p>`).join('')}
+         `,
+      )
+      .join('');
+   const links = member.links
+      .map(
+         (link) => `
+            <a href="${link.url}" target="_blank" rel="noopener noreferrer">
+               ${link.label} <span class="external-link-icon" aria-hidden="true">↗</span>
+            </a>
+         `,
+      )
+      .join('');
+
+   return `
+      <article class="committee-member">
+         <img class="committee-member-photo" src="${member.image}" alt="${member.name}">
+         <div class="committee-member-content">
+            <div class="committee-member-heading">
+               <h3>${member.name}</h3>
+               <p class="committee-member-title">${member.title}</p>
+               ${member.subtitle ? `<p class="committee-member-subtitle">${member.subtitle}</p>` : ''}
+            </div>
+            <div class="committee-member-bio">${body}</div>
+            <div class="committee-member-links">${links}</div>
+         </div>
+      </article>
+   `;
+}
+
 function getScientificCommitteeContent() {
+   const members = committeeMembers[currentLanguage].map(renderCommitteeMember).join('');
+
    return `
   <section id="committee-hero">
       <div class="overlay"></div>
@@ -746,6 +954,11 @@ function getScientificCommitteeContent() {
               <p>${t('sc-bio-5')}</p>
               <p>${t('sc-bio-6')}</p>
           </div>
+      </div>
+  </section>
+  <section id="committee-members">
+      <div class="committee-members-inner">
+         ${members}
       </div>
   </section>
   <section id="committee-main">
