@@ -938,6 +938,15 @@ function getScientificCommitteeContent() {
           <h2>${t('committee-header')}</h2>
       </div>
   </section>
+  <section id="committee-main">
+      <div class="committee-inner">
+          <h3>${t('sc-committee-header')}</h3>
+          <p>${t('sc-committee-1')}</p>
+          <p>${t('sc-committee-2')}</p>
+          <p>${t('sc-committee-3')}</p>
+          <p>${t('sc-committee-4')}</p>
+      </div>
+  </section>
   <section id="founder">
       <div class="founder-inner">
           <img class="founder-photo" src="assets/petar-laskov.jpg" alt="${t('sc-name')}">
@@ -959,15 +968,6 @@ function getScientificCommitteeContent() {
   <section id="committee-members">
       <div class="committee-members-inner">
          ${members}
-      </div>
-  </section>
-  <section id="committee-main">
-      <div class="committee-inner">
-          <h3>${t('sc-committee-header')}</h3>
-          <p>${t('sc-committee-1')}</p>
-          <p>${t('sc-committee-2')}</p>
-          <p>${t('sc-committee-3')}</p>
-          <p>${t('sc-committee-4')}</p>
       </div>
   </section>
   `;
