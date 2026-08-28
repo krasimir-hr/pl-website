@@ -620,7 +620,7 @@ const committeeMembers = {
    ],
 };
 
-let currentLanguage = 'en';
+let currentLanguage = 'it';
 
 function t(key) {
    return translations[currentLanguage][key] || key;
